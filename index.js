@@ -278,7 +278,7 @@ function calendar(response, request) {
 
 
                     // save JSON to disk
-                    fs.writeFile('data/data_' + todaysDate() + '.json', JSON.stringify(result.value), 'utf8', function readFileCallback(err, data) {
+                    fs.writeFile('data/data_' + todaysDate() + '.json', JSON.stringify(result.value, null, "\t"), 'utf8', function readFileCallback(err, data) {
                         if (err) {
                             console.log(err);
                         } else {
@@ -289,7 +289,7 @@ function calendar(response, request) {
                                     console.log(err2);
                                 } else {
                                     logTxt = data2; //now it an object
-                                    logTxt += now + ' => ' + 'data/data_' + todaysDate() + '.json\n';
+                                    logTxt += now + '\tdata/data_' + todaysDate() + '.json\n';
                                     fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
                                         console.log("\n\nlog file updated.");
                                     }); // write it back 
