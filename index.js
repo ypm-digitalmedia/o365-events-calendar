@@ -233,14 +233,21 @@ function buildLocationString(location) {
     return locationString;
 }
 
-function todaysDate() {
+function todaysDate(filter) {
     var d = new Date();
-    var year = d.getFullYear();
-    var month = d.getMonth() + 1;
-    var day = d.getDate();
-    var today = year + "-" + month + "-" + day;
 
-    return today;
+    var year = d.getFullYear();
+    var month = ('0' + (d.getMonth() + 1)).slice(-2);
+    var day = ('0' + d.getDate()).slice(-2);
+
+    var today = year + "-" + month + "-" + day;
+    var filtertoday = "Start/DateTime ge '" + today + "T00:00:00'";
+
+    if (filter && typeof(filter) != "undefined") {
+        return filtertoday;
+    } else {
+        return today;
+    }
 }
 
 function calendar(response, request) {
@@ -256,7 +263,8 @@ function calendar(response, request) {
         var queryParams = {
             '$select': 'Subject,Start,End,Attendees,Categories,Organizer,Body,Location',
             '$orderby': 'Start/DateTime asc',
-            '$top': 50
+            '$top': 50,
+            '$filter': todaysDate(true)
         };
 
         // Set the API endpoint to use the v2.0 endpoint
