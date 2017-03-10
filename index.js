@@ -11,6 +11,7 @@ handle['/authorize'] = authorize;
 handle['/mail'] = mail;
 handle['/calendar'] = calendar;
 handle['/contacts'] = contacts;
+handle['/data'] = viewdata;
 
 server.start(router.route, handle);
 
@@ -241,13 +242,20 @@ function todaysDate(filter) {
     var day = ('0' + d.getDate()).slice(-2);
 
     var today = year + "-" + month + "-" + day;
-    var filtertoday = "Start/DateTime ge '" + today + "T00:00:00'";
+    // var filtertoday = "Start/DateTime ge '" + today + "T00:00:00'";
+    var filtertoday = "End/DateTime ge '" + today + "T00:00:00' and Start/DateTime le '2022-01-01T00:00:00'";
+
 
     if (filter && typeof(filter) != "undefined") {
         return filtertoday;
     } else {
         return today;
     }
+}
+
+function getEventNum(iter) {
+    iter += 1;
+    return iter;
 }
 
 function calendar(response, request) {
@@ -258,10 +266,11 @@ function calendar(response, request) {
     if (token) {
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.write('<head><title>Calendar Feed</title><style>td, th { border-right: 1px #555 solid; border-bottom: 1px #555 solid; padding: 10px;} th { border-width: 3px; font-weight: bold; background-color: #ccc; }</style></head>')
-        response.write('<div><h1>Your calendar</h1></div>');
+        response.write('<div><h1>Your calendar: ' + email + '</h1></div>');
 
         var queryParams = {
-            '$select': 'Subject,Start,End,Attendees,Categories,Organizer,Body,Location',
+            '$select': 'Subject,Start,End,Categories,Organizer,Body,Location,Type',
+            // '$select': 'Subject,Start,End,Attendees,Categories,Organizer,Body,Location,Type',
             '$orderby': 'Start/DateTime asc',
             '$top': 50,
             '$filter': todaysDate(true)
@@ -286,7 +295,7 @@ function calendar(response, request) {
 
 
                     // save JSON to disk
-                    fs.writeFile('data/data_' + todaysDate() + '.json', JSON.stringify(result.value, null, "\t"), 'utf8', function readFileCallback(err, data) {
+                    fs.writeFile('data/caldata_' + todaysDate() + '.json', JSON.stringify(result.value, null, "\t"), 'utf8', function readFileCallback(err, data) {
                         if (err) {
                             console.log(err);
                         } else {
@@ -295,31 +304,42 @@ function calendar(response, request) {
                             fs.readFile('data/datafiles.log', 'utf8', function readFileCallback2(err2, data2) {
                                 if (err2) {
                                     console.log(err2);
+                                    logTxt = data2; //now it an object
+                                    logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tERROR: ' + err2 + '\n';
+                                    fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
+                                        console.log("\n\nlog file updated WITH ERRORS.");
+                                    }); // write it back
                                 } else {
                                     logTxt = data2; //now it an object
-                                    logTxt += now + '\tdata/data_' + todaysDate() + '.json\n';
+                                    logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tOK\n';
                                     fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
-                                        console.log("\n\nlog file updated.");
-                                    }); // write it back 
+                                        console.log("\n\nlog file updated SUCCESSFULLY.");
+                                    }); // write it back
                                 }
+
+
+
                             });
 
                             console.log('\n\ndata/data_' + todaysDate() + '.json written to disk.\n');
                         }
                     });
 
-                    response.write('<table class=" calendardump"><tr><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Attendees</th></tr>');
-                    result.value.forEach(function(event) {
+                    response.write('<table class=" calendardump"><tr><th>#</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                    result.value.forEach(function(event, iter) {
                         console.log('  Subject: ' + event.Subject);
                         console.log('  Event dump: ' + JSON.stringify(event));
-                        response.write('<tr><td>' + event.Subject +
+                        response.write('<tr>' +
+                            '<td>' + getEventNum(iter) +
+                            '</td><td>' + event.Subject +
                             '</td><td>' + event.Start.DateTime.toString() +
                             '</td><td>' + event.End.DateTime.toString() +
                             '</td><td>' + event.Categories.toString() +
                             '</td><td>' + buildOrganizerString(event.Organizer) +
                             '</td><td>' + buildBodyString(event.Body) +
                             '</td><td>' + buildLocationString(event.Location) +
-                            '</td><td>' + buildAttendeeString(event.Attendees) +
+                            '</td><td>' + event.Type +
+                            // '</td><td>' + buildAttendeeString(event.Attendees) +
                             '</td></tr>');
                     });
 
@@ -379,6 +399,38 @@ function contacts(response, request) {
         response.write('<p> No token found in cookie!</p>');
         response.end();
     }
+}
+
+function viewdata(response, request) {
+    console.log("\nview data folder\n")
+    response.writeHead(200, { 'Content-Type': 'text/html' });
+    response.write('<div><h1>Calendar Data</h1></div>')
+
+    fs.realpath("data", function(err, path) {
+        if (err) {
+            console.log(err);
+            response.write("<p>" + err + "</p>");
+            return;
+        }
+        console.log('Path is: ' + path);
+        response.write("<p>Path is: " + path + "</p>");
+
+    });
+    fs.readdir("data", function(err, files) {
+        if (err) return;
+        files.forEach(function(f) {
+            console.log('Files: ' + f);
+            response.write("<p>Files: " + f + "</p>");
+        });
+    });
+
+
+    var logcontent = fs.readFileSync("data/datafiles.log");
+    console.log("Output Content: \n" + logcontent);
+    console.log("\n *EXIT* \n");
+
+    response.write("<p><strong>Log files:</strong><br />" + logcontent + "</p>");
+    response.end();
 }
 
 /*
