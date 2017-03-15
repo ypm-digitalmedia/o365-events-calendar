@@ -1,17 +1,23 @@
 {
-    "name": "node-o365-eventscalendar",
-    "version": "1.0.0",
-    "description": "A simple Node.js app to load an outlook calendar",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "keywords": [
-        "outlook",
-        "microsoft"
-    ],
-    "dependencies": {
-        "node-outlook": "^1.1.6",
-        "simple-oauth2": "^1.0.1"
-    }
+  "name": "node-o365-eventscalendar",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to load an outlook calendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "outlook",
+    "microsoft"
+  ],
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "node-outlook": "^1.1.6",
+    "simple-oauth2": "^1.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
 }

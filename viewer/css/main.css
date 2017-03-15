@@ -4,12 +4,142 @@
    Author's custom styles
    ========================================================================== */
 
+/*.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}*/
 
 
 
 
 
+body {
+  margin: 0;
+  background: #73b0c7!important; 
+  background-color: #73b0c7!important; 
+  padding-top: 0!important;
+  overflow: hidden;
+  height: 100%!important;
+  width: 100%!important;
+}
 
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*min-width: 100%;*/
+    min-height: 100%;
+    width: auto;
+    height: 1920px;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #73b0c7!important; 
+    background: url('../../media/bg_snow.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#peabody {
+  width: 100%;    
+  font-family: "Lithos Pro", sans-serif;
+  font-weight:800; 
+  float: right;
+  text-align: right;
+}
+
+#content { 
+  font-family: Agenda-Light, "Agenda Light", Agenda, "Arial Narrow", sans-serif;
+  font-weight:100; 
+  /*background: rgba(0,0,0,0.3);*/
+  color: white;
+  margin:0;
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#content button { 
+  display: block;
+  width: 80%;
+  margin-bottom: .5rem;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#content button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+
+@media screen and (max-device-width: 800px) {
+  html { background: url(../../media/bg_snow.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
 
 
 
