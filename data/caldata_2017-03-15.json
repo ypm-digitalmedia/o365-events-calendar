@@ -1,0 +1,781 @@
+[
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsMAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuGQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsMAAA=",
+		"Categories": [
+			"Offsite"
+		],
+		"Subject": "YaleSites DrupalCamp",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-16T09:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-16T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": " 34 Hillhouse Avenue, Luce Hall Auditorium"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMIAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuPg==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMIAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Highlights",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-16T14:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-16T15:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMJAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuPQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMJAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Highlights",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-16T15:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-16T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW0AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjddA==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW0AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: With Shusheng Hu",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-16T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-16T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMKAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuWw==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMKAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Highlights",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-03-18T12:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-18T13:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMLAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuXA==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMLAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Highlights",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-03-18T13:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-18T14:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMMAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuXQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMMAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-03-18T14:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-18T15:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMNAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuXg==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMNAAA=",
+		"Categories": [
+			"Tours"
+		],
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-03-18T15:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-18T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMSAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuYQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMSAAA=",
+		"Categories": [],
+		"Subject": "Scanning with Chelsea and Stefan ",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-03-20T11:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-20T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "DFH"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsLAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAALI9pfw==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsLAAA=",
+		"Categories": [],
+		"Subject": "Regular Check-In Meeting",
+		"Type": "SeriesMaster",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<style type=\"text/css\" style=\"\">\r\n<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n</style>\r\n</head>\r\n<body dir=\"ltr\">\r\n<div id=\"divtagdefaultwrapper\" dir=\"ltr\" style=\"font-size:12pt; color:#000000; font-family:Calibri,Arial,Helvetica,sans-serif\">\r\n<p><br>\r\n</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-20T14:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-20T15:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "217PM"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Kissel, Richard",
+				"Address": "richard.kissel@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMAAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAMdtuAw==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAx1JMAAAA=",
+		"Categories": [
+			"Important"
+		],
+		"Subject": "Peabody MasterPlan review",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-20T17:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-20T18:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAWqAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAKYk/fQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAWqAAA=",
+		"Categories": [],
+		"Subject": "Professional Schools-Plus Monthly Technology Roundtable",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=us-ascii\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.msonormal0, li.msonormal0, div.msonormal0\r\n\t{margin-right:0in;\r\n\tmargin-left:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",serif}\r\nspan.EmailStyle18\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\">Please join us for the monthly meeting of the technical leads from the professional schools, museums/galleries, libraries and other distributed technology units.&nbsp;\r\n</p>\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n<p class=\"MsoNormal\"><b>People Hub and Grouper</b> will be the featured topics for the\r\n<b>March 21 3pm</b> meeting (at the new CTL offices!)&nbsp; This is planned as a working discussion -- please bring specific examples and use cases for ways you need to access people information.&nbsp; Feel free to extend the meeting invite to developers in your shop\r\n who can contribute to the conversation.&nbsp; </p>\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n<p class=\"MsoNormal\">Plus our regular News &amp; Notes sharing of topical items from each of your areas.</p>\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n<p class=\"MsoNormal\">Please check our Basecamp discussion forum for the monthly agenda and location.&nbsp; To add topics to the agenda please post to the Basecamp forum or contact\r\n<a href=\"mailto:Randall.rode@yale.edu\">Randall.rode@yale.edu</a> .</p>\r\n<p class=\"MsoNormal\">&nbsp;</p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-21T15:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-21T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "Center for Teaching and Learning, 301 York Street"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Rode, Randall",
+				"Address": "randall.rode@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAsiScLAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAALI9pqQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAsiScLAAA=",
+		"Categories": [],
+		"Subject": "DFH www ",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-22T10:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-22T10:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "TBD"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Zolvik, Kimberley",
+				"Address": "kimberley.zolvik@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW1AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdfg==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW1AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: Dioramas with Jim Sirch",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-06T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-04-06T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "TBD"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BCAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAADr5T1w==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BCAAA=",
+		"Categories": [
+			"Important"
+		],
+		"Subject": "90 Day Review",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-04-11T09:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-04-11T10:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "217PM"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BGAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAADr5T2A==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BGAAA=",
+		"Categories": [
+			"Departmental Meetings"
+		],
+		"Subject": "Collections Meeting",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-04-11T12:15:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-04-11T13:15:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "Marsh Room"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW2AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdfQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW2AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: With Patrick Sweeney",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-20T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-04-20T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW3AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdgQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW3AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: With Dan Dew",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-04T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-05-04T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsNAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAIYkSOA==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAhhKsNAAA=",
+		"Categories": [
+			"Offsite"
+		],
+		"Subject": "YaleSites - Basics",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-09T09:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-05-09T12:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "221 Whitney Avenue, Training Room 4"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BHAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAADr5T2Q==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BHAAA=",
+		"Categories": [
+			"Departmental Meetings"
+		],
+		"Subject": "Collections Meeting",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-05-09T12:15:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-05-09T13:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "Marsh Room"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW4AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdhQ==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW4AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: TBD",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-18T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-05-18T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "TBD"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW5AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdiA==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW5AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: Liz Clarke",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-06-01T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-06-01T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BIAAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAADr5T2g==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAM6_BIAAA=",
+		"Categories": [
+			"Departmental Meetings"
+		],
+		"Subject": "Collections Meeting",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "Text",
+			"Content": ""
+		},
+		"Start": {
+			"DateTime": "2017-06-13T12:15:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-06-13T13:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "Marsh Room"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW6AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAEgjdiw==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAASCAW6AAA=",
+		"Categories": [
+			"Listening Sessions"
+		],
+		"Subject": "Gallery Talk: TBD",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-06-15T16:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-06-15T16:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "TBD"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('5082842d-444d-41aa-b949-f15282772dbe@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAbYCk1AAA=')",
+		"@odata.etag": "W/\"w25ss1f7eEWygrwB9kNJ9gAAG2M0+A==\"",
+		"Id": "AAMkAGZjOTY4MjIzLTI4NGItNDYwMS1hOTJkLTk4YTkwNmE4N2IwZgBGAAAAAACTENK3G6X_RZZL2UWt5YeKBwAg5dw6OSx1QbRMW7H7YQfPAAAAQGyCAADDbmyzV-t4RbKCvAH2Q0n2AAAbYCk1AAA=",
+		"Categories": [
+			"Important"
+		],
+		"Subject": "EPANDDA Hackathon",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-09-18T00:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-09-20T00:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "American Museum of Natural History, NYC"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Melien, Andrew",
+				"Address": "andrew.melien@yale.edu"
+			}
+		}
+	}
+]
