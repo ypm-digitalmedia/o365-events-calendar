@@ -5,6 +5,8 @@ var authHelper = require('./authHelper');
 var outlook = require('node-outlook');
 var fs = require("fs");
 
+var targetSharedEmail = "peabody.events@yale.edu";
+
 var handle = {};
 handle['/'] = home;
 handle['/authorize'] = authorize;
@@ -18,7 +20,15 @@ server.start(router.route, handle);
 function home(response, request) {
     console.log('Request handler \'home\' was called.');
     response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write('<p>Please <a href="' + authHelper.getAuthUrl() + '">sign in</a> with your Office 365 or Outlook.com account.</p>');
+    response.write('<!DOCTYPE html>');
+    response.write('<html>');
+    response.write('<head>');
+    response.write('<title>Log in</title>');
+    response.write('</head>');
+    response.write('<body>');
+    response.write('<p>Please <strong><a href="' + authHelper.getAuthUrl() + '">sign in</a></strong> with your Office 365 or Outlook.com account.</p>');
+    response.write('</body>');
+    response.write('</html>');
     response.end();
 }
 
@@ -53,7 +63,7 @@ function tokenReceived(response, error, token) {
                     'node-tutorial-email=' + email + ';Max-Age=4000'
                 ];
                 response.setHeader('Set-Cookie', cookies);
-                response.writeHead(302, { 'Location': 'http://localhost:8000/mail' });
+                response.writeHead(302, { 'Location': 'http://localhost:8000/calendar' });
                 response.end();
             }
         });
@@ -265,8 +275,14 @@ function calendar(response, request) {
     console.log('Email found in cookie: ', email);
     if (token) {
         response.writeHead(200, { 'Content-Type': 'text/html' });
-        response.write('<head><title>Calendar Feed</title><style>td, th { border-right: 1px #555 solid; border-bottom: 1px #555 solid; padding: 10px;} th { border-width: 3px; font-weight: bold; background-color: #ccc; }</style></head>')
-        response.write('<div><h1>Your calendar: ' + email + '</h1></div>');
+        response.write('<!DOCTYPE html>');
+        response.write('<html>');
+        response.write('<head>');
+        response.write('<title>Calendar Feed</title>');
+        response.write('<style>td, th { border-right: 1px #555 solid; border-bottom: 1px #555 solid; padding: 10px;} th { border-width: 3px; font-weight: bold; background-color: #ccc; }</style>');
+        response.write('</head>');
+        response.write('<body>');
+        response.write('<div><h2>Logged in as: ' + email + '</h2><h2>Viewing events for: ' + targetSharedEmail + '</h2></div>');
 
         var queryParams = {
             '$select': 'Subject,Start,End,Categories,Organizer,Body,Location,Type',
@@ -284,11 +300,20 @@ function calendar(response, request) {
         // The API will return event date/times in this time zone.
         outlook.base.setPreferredTimeZone('Eastern Standard Time');
 
-        outlook.calendar.getEvents({ token: token, odataParams: queryParams },
+        // Pass the user's email address
+        var userInfo = {
+            email: targetSharedEmail
+        };
+
+        outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParams, user: userInfo },
+
+            // outlook.calendar.getEvents({ token: token, odataParams: queryParams },
             function(error, result) {
                 if (error) {
                     console.log('getEvents returned an error: ' + error);
-                    response.write('<p>ERROR: ' + error + '</p>');
+                    response.write('<p><strong>ERROR: </strong>' + error + '</p>');
+                    response.write('</body>');
+                    response.write('</html>');
                     response.end();
                 } else if (result) {
                     console.log('getEvents returned ' + result.value.length + ' events.');
@@ -325,7 +350,7 @@ function calendar(response, request) {
                         }
                     });
 
-                    response.write('<table class=" calendardump"><tr><th>#</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                    response.write('<table class="calendardump"><tr><th>#</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
                     result.value.forEach(function(event, iter) {
                         console.log('  Subject: ' + event.Subject);
                         console.log('  Event dump: ' + JSON.stringify(event));
@@ -344,6 +369,7 @@ function calendar(response, request) {
                     });
 
                     response.write('</table>');
+                    response.write('</body></html>');
                     response.end();
                 }
             });

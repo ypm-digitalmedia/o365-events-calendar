@@ -1,0 +1,64 @@
+[
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADwtI3ZAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA8MYu1w==\"",
+		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADwtI3ZAAA=",
+		"Categories": [],
+		"Subject": "Test Shared Event",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html><head><meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<!-- converted from text -->\r\n<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left: #800000 2px solid; } --></style></head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt;\"><div class=\"PlainText\">&nbsp;</div></span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-23T14:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-23T15:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		}
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADwtI3aAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA8MYu2Q==\"",
+		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADwtI3aAAA=",
+		"Categories": [],
+		"Subject": "Another Test shared event!",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html><head><meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<!-- converted from text -->\r\n<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left: #800000 2px solid; } --></style></head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt;\"><div class=\"PlainText\">&nbsp;</div></span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-24T14:30:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"End": {
+			"DateTime": "2017-03-24T15:00:00.0000000",
+			"TimeZone": "Eastern Standard Time"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		}
+	}
+]
