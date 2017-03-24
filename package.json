@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "http-server": "^0.9.0",
-    "moment": "^2.17.1",
+    "moment": "^2.18.1",
     "moment-timezone": "^0.5.11",
     "node-outlook": "^1.1.6",
     "simple-oauth2": "^1.0.1"

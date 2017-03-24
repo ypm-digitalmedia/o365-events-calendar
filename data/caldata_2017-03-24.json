@@ -12,11 +12,25 @@
 		},
 		"Start": {
 			"DateTime": "2017-03-24T14:30:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Friday, March 24",
+			"FullDate": "Friday, March 24, 2017",
+			"Time": "2:30 pm",
+			"Day": "Friday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
 		},
 		"End": {
 			"DateTime": "2017-03-24T15:00:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Friday, March 24",
+			"FullDate": "Friday, March 24, 2017",
+			"Time": "3:00 pm",
+			"Day": "Friday",
+			"Hour": "3",
+			"Minute": "00",
+			"Year": "2017"
 		},
 		"Location": {
 			"DisplayName": "",
@@ -30,7 +44,7 @@
 			}
 		},
 		"Status": "active",
-		"LastEditedBy": "andrew.melien@yale.edu"
+		"LastEditedBy": ""
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeVAAA=')",
@@ -45,11 +59,25 @@
 		},
 		"Start": {
 			"DateTime": "2017-03-25T11:00:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, March 25",
+			"FullDate": "Saturday, March 25, 2017",
+			"Time": "11:00 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "00",
+			"Year": "2017"
 		},
 		"End": {
 			"DateTime": "2017-03-25T11:30:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, March 25",
+			"FullDate": "Saturday, March 25, 2017",
+			"Time": "11:30 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "30",
+			"Year": "2017"
 		},
 		"Location": {
 			"DisplayName": "",
@@ -63,7 +91,7 @@
 			}
 		},
 		"Status": "active",
-		"LastEditedBy": "andrew.melien@yale.edu"
+		"LastEditedBy": ""
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeYAAA=')",
@@ -78,11 +106,25 @@
 		},
 		"Start": {
 			"DateTime": "2017-04-01T11:00:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 1",
+			"FullDate": "Saturday, April 1, 2017",
+			"Time": "11:00 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "00",
+			"Year": "2017"
 		},
 		"End": {
 			"DateTime": "2017-04-01T11:30:00.0000000",
-			"TimeZone": "Eastern Standard Time"
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 1",
+			"FullDate": "Saturday, April 1, 2017",
+			"Time": "11:30 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "30",
+			"Year": "2017"
 		},
 		"Location": {
 			"DisplayName": "",
@@ -96,6 +138,6 @@
 			}
 		},
 		"Status": "active",
-		"LastEditedBy": "andrew.melien@yale.edu"
+		"LastEditedBy": ""
 	}
 ]

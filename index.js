@@ -4,6 +4,7 @@ var router = require('./router');
 var authHelper = require('./authHelper');
 var outlook = require('node-outlook');
 var fs = require("fs");
+var moment = require("moment");
 
 var targetSharedEmail = "peabody.events@yale.edu";
 
@@ -393,10 +394,43 @@ function calendar(response, request) {
 
                         // ============================== 3. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances  ==============================
 
-                        cal.recurring.forEach(function(event) {
+                        cal.recurring.forEach(function(series) {
+                            var n = 0;
                             var tmpEvents = [];
-                            var tmpEvent = event;
+                            var tmpEvent = series;
                             tmpEvent.Type = "Instance";
+
+                            var freq = series.Recurrence.Pattern.Type;
+
+                            var start = series.Start.DateTime;
+                            var end = series.End.DateTime;
+                            var today = moment().startOf('day').format();
+
+                            if (freq == "Daily") {
+                                var max = 30;
+                                var x = n;
+                                while (n < max) {
+                                    var tS = moment(start).clone().add(x, "day");
+                                    var tE = moment(end).clone().add(x, "day");
+                                    if (tS.diff(today) < 0) {
+                                        x++;
+                                    } else {
+                                        var newStart = moment(tS).format();
+                                        var newEnd = moment(tE).format();
+                                        tmpEvent.Start.DateTime = newStart;
+                                        tmpEvent.End.DateTime = newEnd;
+                                        x++;
+                                        n++;
+
+                                        cal.instances.push(tmpEvent);
+
+                                        // ADD OTHER MOMENT DATE/TIME ITEMS HERE LIKE IN THE BELOW FUNCTION
+                                        // OR, RUN THROUGH cal.instances IN THE SAME LOOP BELOW
+                                        // FINISH THIS!!!
+                                    }
+                                }
+
+                            }
 
                         });
 
@@ -406,6 +440,23 @@ function calendar(response, request) {
                             var newItem = item;
                             newItem.Status = "active";
                             newItem.LastEditedBy = "";
+
+                            newItem.Start.Date = moment(item.Start.DateTime).format('dddd, MMMM D');
+                            newItem.Start.FullDate = moment(item.Start.DateTime).format('dddd, MMMM D, YYYY');
+                            newItem.Start.Time = moment(item.Start.DateTime).format('h:mm a');
+                            newItem.Start.Day = moment(item.Start.DateTime).format('dddd');
+                            newItem.Start.Hour = moment(item.Start.DateTime).format('h');
+                            newItem.Start.Minute = moment(item.Start.DateTime).format('mm');
+                            newItem.Start.Year = moment(item.Start.DateTime).format('YYYY');
+
+                            newItem.End.Date = moment(item.End.DateTime).format('dddd, MMMM D');
+                            newItem.End.FullDate = moment(item.End.DateTime).format('dddd, MMMM D, YYYY');
+                            newItem.End.Time = moment(item.End.DateTime).format('h:mm a');
+                            newItem.End.Day = moment(item.End.DateTime).format('dddd');
+                            newItem.End.Hour = moment(item.End.DateTime).format('h');
+                            newItem.End.Minute = moment(item.End.DateTime).format('mm');
+                            newItem.End.Year = moment(item.End.DateTime).format('YYYY');
+
                             cal.combined.push(newItem);
                             console.log('"' + newItem.Subject + '" pushed to COMBINED array.\n');
                         });
@@ -530,6 +581,7 @@ function calendar(response, request) {
                                 });
 
                                 console.log('\n\ndata/data_' + todaysDate() + '.json written to disk.  Single instances only.\n');
+
                             }
                         });
 
