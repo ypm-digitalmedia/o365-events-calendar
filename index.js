@@ -244,6 +244,23 @@ function buildLocationString(location) {
     return locationString;
 }
 
+
+function buildRecurrenceString(r) {
+    var recurrenceHTML = "<strong>" + r.Pattern.Type + "</strong><br />";
+    recurrenceHTML += "Interval: " + r.Pattern.Interval + "<br />";
+    recurrenceHTML += "Month: " + r.Pattern.Month + "<br />";
+    recurrenceHTML += "DayOfMonth: " + r.Pattern.DayOfMonth + "<br />";
+    recurrenceHTML += "DaysOfWeek: " + r.Pattern.DaysOfWeek + "<br />";
+    recurrenceHTML += "Index: " + r.Pattern.Index + "<br />";
+    recurrenceHTML += "<strong>" + r.Range.Type + "</strong> (n=" + r.Range.NumberOfOccurrences + ")<br />";
+    recurrenceHTML += r.Range.StartDate + " - " + r.Range.EndDate;
+
+    return recurrenceHTML;
+}
+
+
+
+
 function todaysDate(filter) {
     var d = new Date();
 
@@ -254,18 +271,30 @@ function todaysDate(filter) {
     var today = year + "-" + month + "-" + day;
     // var filtertoday = "Start/DateTime ge '" + today + "T00:00:00'";
     var filtertoday = "End/DateTime ge '" + today + "T00:00:00' and Start/DateTime le '2022-01-01T00:00:00'";
-
+    var filterall = "End/DateTime ge '2017-01-01T00:00:00' and Start/DateTime le '2022-01-01T00:00:00'";
 
     if (filter && typeof(filter) != "undefined") {
-        return filtertoday;
+
+        if (filter == 'range') {
+            return filtertoday;
+        } else if (filter == 'beginning') {
+            return filterall;
+        } else {
+            return filtertoday;
+        }
     } else {
         return today;
     }
 }
 
+
 function getEventNum(iter) {
     iter += 1;
     return iter;
+}
+
+function makeTruncatedId(theId) {
+    return "<span title='" + theId + "'>" + " ... " + theId.slice(-10) + "</span>";
 }
 
 function calendar(response, request) {
@@ -284,16 +313,23 @@ function calendar(response, request) {
         response.write('<body>');
         response.write('<div><h2>Logged in as: ' + email + '</h2><h2>Viewing events for: ' + targetSharedEmail + '</h2></div>');
 
-        var queryParams = {
+        var queryParamsSingle = {
             '$select': 'Subject,Start,End,Categories,Organizer,Body,Location,Type',
-            // '$select': 'Subject,Start,End,Attendees,Categories,Organizer,Body,Location,Type',
             '$orderby': 'Start/DateTime asc',
             '$top': 50,
-            '$filter': todaysDate(true)
+            '$filter': todaysDate('range') + " and Type ne 'SeriesMaster'"
         };
+
+        var queryParamsRecurring = {
+            '$select': 'Subject,Start,End,Categories,Organizer,Body,Location,Type,Recurrence',
+            '$orderby': 'Start/DateTime asc',
+            '$top': 100,
+            '$filter': todaysDate('beginning') + " and Type eq 'SeriesMaster'"
+        }
 
         // Set the API endpoint to use the v2.0 endpoint
         outlook.base.setApiEndpoint('https://outlook.office.com/api/v2.0');
+        // outlook.base.setApiEndpoint('https://outlook.office.com/api/v2.0/me/calendarview');
         // Set the anchor mailbox to the user's SMTP address
         outlook.base.setAnchorMailbox(email);
         // Set the preferred time zone.
@@ -305,80 +341,240 @@ function calendar(response, request) {
             email: targetSharedEmail
         };
 
-        outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParams, user: userInfo },
+        var cal = { "single": [], "recurring": [], "instances": [], "combined": [] };
 
-            // outlook.calendar.getEvents({ token: token, odataParams: queryParams },
-            function(error, result) {
-                if (error) {
-                    console.log('getEvents returned an error: ' + error);
-                    response.write('<p><strong>ERROR: </strong>' + error + '</p>');
-                    response.write('</body>');
-                    response.write('</html>');
-                    response.end();
-                } else if (result) {
-                    console.log('getEvents returned ' + result.value.length + ' events.');
-
-
-                    // save JSON to disk
-                    fs.writeFile('data/caldata_' + todaysDate() + '.json', JSON.stringify(result.value, null, "\t"), 'utf8', function readFileCallback(err, data) {
-                        if (err) {
-                            console.log(err);
-                        } else {
-
-                            var now = new Date();
-                            fs.readFile('data/datafiles.log', 'utf8', function readFileCallback2(err2, data2) {
-                                if (err2) {
-                                    console.log(err2);
-                                    logTxt = data2; //now it an object
-                                    logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tERROR: ' + err2 + '\n';
-                                    fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
-                                        console.log("\n\nlog file updated WITH ERRORS.");
-                                    }); // write it back
-                                } else {
-                                    logTxt = data2; //now it an object
-                                    logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tOK\n';
-                                    fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
-                                        console.log("\n\nlog file updated SUCCESSFULLY.");
-                                    }); // write it back
-                                }
+        // ======================================================================================================
+        // PROCESS:
+        // 1. Query single events, write cal.single
+        // 2. Query recurring events, write cal.recurring
+        // 3. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances 
+        // 4. Process and push cal.single and cal.instances to cal.combined
+        // 5. Sort cal.combined
+        // 6. Write data table using cal.combined
+        // 7. Write JSON file and log using cal.combined
+        // ======================================================================================================
 
 
 
-                            });
+        // ============================== 1. Query single events, write cal.single ==============================
+        outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParamsSingle, user: userInfo }, function(error, result) {
+            if (error) {
+                console.log('getEvents returned an error: ' + error);
+                response.write('<p><strong>ERROR: </strong>' + error + '</p>');
+                response.write('</body>');
+                response.write('</html>');
+                response.end();
+            } else if (result) {
+                console.log('getEvents returned ' + result.value.length + ' singleInstance event(s).');
 
-                            console.log('\n\ndata/data_' + todaysDate() + '.json written to disk.\n');
-                        }
-                    });
+                cal.single = result.value;
 
-                    response.write('<table class="calendardump"><tr><th>#</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
-                    result.value.forEach(function(event, iter) {
-                        console.log('  Subject: ' + event.Subject);
-                        console.log('  Event dump: ' + JSON.stringify(event));
-                        response.write('<tr>' +
-                            '<td>' + getEventNum(iter) +
-                            '</td><td>' + event.Subject +
-                            '</td><td>' + event.Start.DateTime.toString() +
-                            '</td><td>' + event.End.DateTime.toString() +
-                            '</td><td>' + event.Categories.toString() +
-                            '</td><td>' + buildOrganizerString(event.Organizer) +
-                            '</td><td>' + buildBodyString(event.Body) +
-                            '</td><td>' + buildLocationString(event.Location) +
-                            '</td><td>' + event.Type +
-                            // '</td><td>' + buildAttendeeString(event.Attendees) +
-                            '</td></tr>');
-                    });
+                console.log("\n\n\n\nDUMP:\n\n\n");
+                console.log(cal.single);
 
-                    response.write('</table>');
-                    response.write('</body></html>');
-                    response.end();
-                }
-            });
-    } else {
+
+
+                // ============================== 2. Query recurring events, write cal.recurring ==============================
+                outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParamsRecurring, user: userInfo }, function(error, result2) {
+                    if (error) {
+                        console.log('getEvents returned an error: ' + error);
+                        response.write('<p><strong>ERROR: </strong>' + error + '</p>');
+                        response.write('</body>');
+                        response.write('</html>');
+                        response.end();
+                    } else if (result2) {
+                        console.log('getEvents returned ' + result2.value.length + ' seriesMaster event(s) started since 01-01-2017.');
+
+                        cal.recurring = result2.value;
+
+                        console.log("\n\n\n\nDUMP:\n\n\n");
+                        console.log(cal.recurring);
+
+
+                        // ============================== 3. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances  ==============================
+
+                        cal.recurring.forEach(function(event) {
+                            var tmpEvents = [];
+                            var tmpEvent = event;
+                            tmpEvent.Type = "Instance";
+
+                        });
+
+                        // ============================== 4. Process and push cal.single and cal.instances to cal.combined ==============================
+
+                        cal.single.forEach(function(item, iter) {
+                            var newItem = item;
+                            newItem.Status = "active";
+                            newItem.LastEditedBy = "";
+                            cal.combined.push(newItem);
+                            console.log('"' + newItem.Subject + '" pushed to COMBINED array.\n');
+                        });
+
+                        // PUSH INSTANCES TO COMBINED HERE
+
+                        console.log("\n\n\nCOMBINED:\n\n\n");
+                        console.log(cal.combined);
+
+                        // ============================== 5. Sort cal.combined ==============================
+
+
+
+                        // ============================== 6. Write data table using cal.combined ==============================
+
+
+                        response.write('<h4>Single Instance Events</h4>');
+                        response.write('<table class="calendardump"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+
+                        // ======================= SINGLE INSTANCES
+                        cal.single.forEach(function(event, iter) {
+                            // console.log('  Subject: ' + event.Subject);
+                            // console.log('  Event dump: ' + JSON.stringify(event));
+                            response.write('<tr>' +
+                                '<td>' + getEventNum(iter) +
+                                '</td><td>' + makeTruncatedId(event.Id) +
+                                '</td><td>' + event.Subject +
+                                '</td><td>' + event.Start.DateTime.toString() +
+                                '</td><td>' + event.End.DateTime.toString() +
+                                '</td><td>' + event.Categories.toString() +
+                                '</td><td>' + buildOrganizerString(event.Organizer) +
+                                '</td><td>' + buildBodyString(event.Body) +
+                                '</td><td>' + buildLocationString(event.Location) +
+                                '</td><td>' + event.Type +
+                                '</td></tr>');
+                        });
+                        response.write('</table>');
+
+                        // ======================= EXTRACTED INSTANCES
+                        response.write('<h4>Extracted Single Events from Series</h4>');
+                        response.write('<table class="calendardump"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                        cal.instances.forEach(function(event, iter) {
+                            // console.log('  Subject: ' + event.Subject);
+                            // console.log('  Event dump: ' + JSON.stringify(event));
+                            response.write('<tr>' +
+                                '<td>' + getEventNum(iter) +
+                                '</td><td>' + makeTruncatedId(event.Id) +
+                                '</td><td>' + event.Subject +
+                                '</td><td>' + event.Start.DateTime.toString() +
+                                '</td><td>' + event.End.DateTime.toString() +
+                                '</td><td>' + event.Categories.toString() +
+                                '</td><td>' + buildOrganizerString(event.Organizer) +
+                                '</td><td>' + buildBodyString(event.Body) +
+                                '</td><td>' + buildLocationString(event.Location) +
+                                '</td><td>' + event.Type +
+                                '</td></tr>');
+                        });
+                        response.write('</table>');
+
+                        // ======================= SERIES
+                        response.write('<h4>SeriesMaster Events</h4>');
+                        response.write('<table class="calendardump"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th><th>Recurrence</th></tr>');
+                        cal.recurring.forEach(function(event, iter) {
+                            // console.log('  Subject: ' + event.Subject);
+                            // console.log('  Event dump: ' + JSON.stringify(event));
+                            response.write('<tr>' +
+                                '<td>' + getEventNum(iter) +
+                                '</td><td>' + makeTruncatedId(event.Id) +
+                                '</td><td>' + event.Subject +
+                                '</td><td>' + event.Start.DateTime.toString() +
+                                '</td><td>' + event.End.DateTime.toString() +
+                                '</td><td>' + event.Categories.toString() +
+                                '</td><td>' + buildOrganizerString(event.Organizer) +
+                                '</td><td>' + buildBodyString(event.Body) +
+                                '</td><td>' + buildLocationString(event.Location) +
+                                '</td><td>' + event.Type +
+                                '</td><td>' + buildRecurrenceString(event.Recurrence) +
+                                '</td></tr>');
+                        });
+                        response.write('</table>');
+
+
+
+                        // DO THE SAME FOR COMBINED
+
+
+
+
+
+
+                        response.write('</body></html>');
+                        response.end();
+
+                        // ============================== 7. Write JSON file and log using cal.combined ==============================
+
+                        // CHANGE cal.single TO cal.combined
+
+                        fs.writeFile('data/caldata_' + todaysDate() + '.json', JSON.stringify(cal.single, null, "\t"), 'utf8', function readFileCallback(err, data) {
+                            if (err) {
+                                console.log(err);
+                            } else {
+
+                                var now = new Date();
+                                fs.readFile('data/datafiles.log', 'utf8', function readFileCallback2(err2, data2) {
+                                    if (err2) {
+                                        console.log(err2);
+                                        logTxt = data2; //now it an object
+                                        logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tERROR: ' + err2 + '\n';
+                                        fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
+                                            console.log("\n\nlog file updated WITH ERRORS.");
+                                        }); // write it back
+                                    } else {
+                                        logTxt = data2; //now it an object
+                                        logTxt += now + '\tcaldata_' + todaysDate() + '.json\t' + email + '\tOK\n';
+                                        fs.writeFile('data/datafiles.log', logTxt, 'utf8', function logCallback(err, data3) {
+                                            console.log("\n\nlog file updated SUCCESSFULLY.  Single instances only.");
+                                        }); // write it back
+                                    }
+
+
+
+                                });
+
+                                console.log('\n\ndata/data_' + todaysDate() + '.json written to disk.  Single instances only.\n');
+                            }
+                        });
+
+
+
+
+
+
+
+
+
+
+
+                    }
+                });
+            }
+        });
+
+
+    } else { // BAD AUTH
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.write('<p> No token found in cookie!</p>');
         response.end();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function contacts(response, request) {
     var token = getValueFromCookie('node-tutorial-token', request.headers.cookie);
