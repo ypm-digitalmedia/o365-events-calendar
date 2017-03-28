@@ -495,7 +495,6 @@ function calendar(response, request) {
                                 var max = 30;
                                 var increment = 1;
                                 var incType = "day";
-                                var recType = "simple";
                                 var offsetPattern = [0];
 
                             } else if (freq == "Weekly") {
@@ -511,11 +510,18 @@ function calendar(response, request) {
                                 }
                                 max *= dow.length;
 
-                            } //else if (freq == "Monthly" || freq == "AbsoluteMonthly") {
+                            } else if (freq == "Monthly" || freq == "AbsoluteMonthly") {
+                                var max = 2;
+                                var increment = series.Recurrence.Pattern.Interval;
+                                var incType = "month";
+                                var offsetPattern = [0];
 
-                            //} else if (freq == "Yearly" || freq == "AbsoluteYearly") {
-
-                            //}
+                            } else if (freq == "Yearly" || freq == "AbsoluteYearly") {
+                                var max = 1;
+                                var increment = series.Recurrence.Pattern.Interval;
+                                var incType = "year";
+                                var offsetPattern = [0];
+                            }
 
                             var x = n;
 
@@ -588,14 +594,42 @@ function calendar(response, request) {
                             newItem.End.Minute = moment(item.End.DateTime).format('mm');
                             newItem.End.Year = moment(item.End.DateTime).format('YYYY');
 
+                            // reformat Start.DateTime and End.DateTime as vanilla Date() objects
+                            // instances has this done already
+                            newItem.Start.DateTime = new Date(newItem.Start.DateTime);
+                            newItem.End.DateTime = new Date(newItem.End.DateTime);
+
                             cal.combined.push(newItem);
                             console.log('"' + newItem.Subject + '" pushed to COMBINED array.\n');
                         });
 
-                        // PUSH INSTANCES TO COMBINED HERE
+                        cal.instances.forEach(function(item, iter) {
+                            var newItem = item;
+                            newItem.Status = "active";
+                            newItem.LastEditedBy = "";
 
-                        // console.log("\n\n\nCOMBINED:\n\n\n");
-                        // console.log(cal.combined);
+                            newItem.Start.Date = moment(item.Start.DateTime).format('dddd, MMMM D');
+                            newItem.Start.FullDate = moment(item.Start.DateTime).format('dddd, MMMM D, YYYY');
+                            newItem.Start.Time = moment(item.Start.DateTime).format('h:mm a');
+                            newItem.Start.Day = moment(item.Start.DateTime).format('dddd');
+                            newItem.Start.Hour = moment(item.Start.DateTime).format('h');
+                            newItem.Start.Minute = moment(item.Start.DateTime).format('mm');
+                            newItem.Start.Year = moment(item.Start.DateTime).format('YYYY');
+
+                            newItem.End.Date = moment(item.End.DateTime).format('dddd, MMMM D');
+                            newItem.End.FullDate = moment(item.End.DateTime).format('dddd, MMMM D, YYYY');
+                            newItem.End.Time = moment(item.End.DateTime).format('h:mm a');
+                            newItem.End.Day = moment(item.End.DateTime).format('dddd');
+                            newItem.End.Hour = moment(item.End.DateTime).format('h');
+                            newItem.End.Minute = moment(item.End.DateTime).format('mm');
+                            newItem.End.Year = moment(item.End.DateTime).format('YYYY');
+
+                            cal.combined.push(newItem);
+                            console.log('"' + newItem.Subject + '" pushed to COMBINED array.\n');
+                        });
+
+                        console.log("\n\n\nCOMBINED:\n\n\n");
+                        console.log(cal.combined);
 
                         // ============================== 5. Sort cal ==============================
 
