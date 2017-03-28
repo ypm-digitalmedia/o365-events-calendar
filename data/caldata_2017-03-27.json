@@ -1,0 +1,143 @@
+[
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8OAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYA==\"",
+		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8OAAA=",
+		"Categories": [],
+		"Subject": "Football?",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-03-28T11:00:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, March 28",
+			"FullDate": "Tuesday, March 28, 2017",
+			"Time": "11:00 am",
+			"Day": "Tuesday",
+			"Hour": "11",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-03-28T11:30:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, March 28",
+			"FullDate": "Tuesday, March 28, 2017",
+			"Time": "11:30 am",
+			"Day": "Tuesday",
+			"Hour": "11",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeYAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA8irSwQ==\"",
+		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeYAAA=",
+		"Categories": [],
+		"Subject": "Discreet event that repeats once",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-01T11:00:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 1",
+			"FullDate": "Saturday, April 1, 2017",
+			"Time": "11:00 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-01T11:30:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 1",
+			"FullDate": "Saturday, April 1, 2017",
+			"Time": "11:30 am",
+			"Day": "Saturday",
+			"Hour": "11",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8NAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tXw==\"",
+		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8NAAA=",
+		"Categories": [],
+		"Subject": "Taco Tuesday",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-04T11:30:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, April 4",
+			"FullDate": "Tuesday, April 4, 2017",
+			"Time": "11:30 am",
+			"Day": "Tuesday",
+			"Hour": "11",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-04T12:00:00.0000000",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, April 4",
+			"FullDate": "Tuesday, April 4, 2017",
+			"Time": "12:00 pm",
+			"Day": "Tuesday",
+			"Hour": "12",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	}
+]
