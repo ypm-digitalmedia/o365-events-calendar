@@ -5,6 +5,18 @@ var authHelper = require('./authHelper');
 var outlook = require('node-outlook');
 var fs = require("fs");
 var moment = require("moment");
+var handlebars = require("handlebars");
+
+// var $;
+// require("jsdom").env("", function(err, window) {
+//     if (err) {
+//         console.error(err);
+//         return;
+//     }
+//     $ = require("jquery")(window);
+// });
+// console.log("Jquery: ");
+// console.log($);
 
 var targetSharedEmail = "peabody.events@yale.edu";
 
@@ -24,13 +36,29 @@ function home(response, request) {
     response.write('<!DOCTYPE html>');
     response.write('<html>');
     response.write('<head>');
-    response.write('<title>Log in</title>');
+    // response.write('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />');
+    response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
+    response.write('<link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />');
+    response.write('<link href="main.css" type="text/css" rel="stylesheet" />');
+    response.write('<title>Peabody Events Calendar | Sign in with Outlook 365</title>');
+    response.write('<link rel="icon" href="media/Favicon/ypm-favicon1_32.png" sizes="32x32">');
     response.write('</head>');
     response.write('<body>');
-    response.write('<p>Please <strong><a href="' + authHelper.getAuthUrl() + '">sign in</a></strong> with your Office 365 or Outlook.com account.</p>');
+    response.write('<div class="logo"><img src="media/peabody-text-logo-2160.png" /><h4>Digital Media</h4></div>');
+    response.write('<div class="Aligner">');
+    response.write('<div class="dialog">');
+    response.write('<div class="dialog-header"><h2>Events Calendar</h2></div>');
+    response.write('<img src="media/microsoft-office-365-logo.png" class="office-logo" />')
+        // response.write('<h3>Sign in</h3>');
+    response.write('<p>Please sign in with your Office 365 or Outlook.com account.</p><br /><br />');
+    response.write('<p align="center"><a href="' + authHelper.getAuthUrl() + '"><button class="btn btn-primary btn-lg">Continue <i class="fa fa-caret-right" aria-hidden="true"></i></button></a></p>');
+    response.write('</div>');
+    response.write('</div>');
     response.write('</body>');
     response.write('</html>');
     response.end();
+
+
 }
 
 var url = require('url');

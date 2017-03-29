@@ -1,3 +1,116 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url("media/bg.png");
+    background-size: cover;
+    color: #222;
+}
+
+@font-face {
+    font-family: "Mallory Thin";
+    src: url("fonts/Mallory/Mallory-Thin.otf");
+}
+
+@font-face {
+    font-family: "Mallory Light";
+    src: url("fonts/Mallory/Mallory-Light.otf");
+}
+
+@font-face {
+    font-family: "Mallory Book";
+    src: url("fonts/Mallory/Mallory-Book.otf");
+}
+
+@font-face {
+    font-family: "Mallory Medium";
+    src: url("fonts/Mallory/Mallory-Medium.otf");
+}
+
+@font-face {
+    font-family: "Mallory Bold";
+    src: url("fonts/Mallory/Mallory-Bold.otf");
+}
+
+@font-face {
+    font-family: "Mallory Black";
+    src: url("fonts/Mallory/Mallory-Black.otf");
+}
+
+@font-face {
+    font-family: "Mallory Ultra";
+    src: url("fonts/Mallory/Mallory-Ultra.otf");
+}
+
+.dialog {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px #555 solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 50%;
+}
+
+.dialog-header {
+    margin-top: -2em;
+    line-height: 50px;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.Aligner div {
+    z-index: 3;
+}
+
+.logo {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    padding-right: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.office-logo {
+    width: 40%;
+    height: auto;
+}
+
+p,
 body {
-    background-color: orange!important;
+    font-family: "Mallory Light";
+}
+
+button,
+a {
+    font-family: "Mallory Medium";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: "Mallory Bold";
 }

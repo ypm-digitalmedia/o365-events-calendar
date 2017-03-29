@@ -1,7 +1,121 @@
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
+var fs = require("fs");
+
+var whitelist = ["viewer", "media", "templates"];
+
 function route(handle, pathname, response, request) {
     console.log('About to route a request for ' + pathname);
-    if (typeof handle[pathname] === 'function') {
+
+    var pathnameClean = pathname.split("/").join("");
+
+    if (whitelist.indexOf(pathnameClean) > -1) {
+        console.log("Handling request for plain directory " + pathname);
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+        response.write('<!DOCTYPE html>');
+        response.write('<html>');
+        response.write('<head>');
+        // response.write('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />');
+        response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
+        response.write('<link href="main.css" type="text/css" rel="stylesheet" />');
+        response.write('<title>' + pathnameClean + '</title>');
+        response.write('</head>');
+        response.write('<body>');
+        response.write('<p>This is a custom page for <strong>' + pathname + '</strong></p>');
+        response.write('</body>');
+        response.write('</html>');
+        response.end();
+    } else if (pathnameClean.indexOf(".css") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing contents of CSS file " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'text/css' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".js") > -1) {
+
+        var jstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing contents of JS file " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'text/javascript' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".jpg") > -1 || pathnameClean.indexOf(".jpeg") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing JPEG image " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'image/jpeg' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".gif") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing GIF image " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'image/gif' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".png") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing PNG image " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'image/png' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".otf") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing OpenType font " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'font/opentype' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".ttf") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing TrueType font " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'font/truetype' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (typeof handle[pathname] === 'function') {
         return handle[pathname](response, request);
     } else {
         console.log('No request handler found for ' + pathname);
