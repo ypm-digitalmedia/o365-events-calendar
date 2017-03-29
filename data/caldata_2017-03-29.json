@@ -1,7 +1,7 @@
 [
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -63,14 +63,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-03-29T17:00:00.000Z",
@@ -127,7 +127,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -189,14 +189,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-03-30T17:00:00.000Z",
@@ -322,7 +322,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -384,14 +384,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-03-31T17:00:00.000Z",
@@ -495,7 +495,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -754,14 +754,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-01T17:00:00.000Z",
@@ -887,7 +887,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -949,14 +949,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-02T17:00:00.000Z",
@@ -1013,7 +1013,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1075,14 +1075,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-03T17:00:00.000Z",
@@ -1139,14 +1139,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8NAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tXw==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4w==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADzbA8NAAA=",
 		"Categories": [],
 		"Subject": "Taco Tuesday",
 		"Type": "SingleInstance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-04T11:30:00.000Z",
@@ -1171,9 +1171,7 @@
 			"Year": "2017"
 		},
 		"Location": {
-			"DisplayName": "",
-			"Address": {},
-			"Coordinates": {}
+			"DisplayName": "Over the hills and far away"
 		},
 		"Organizer": {
 			"EmailAddress": {
@@ -1186,7 +1184,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1248,14 +1246,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-04T17:00:00.000Z",
@@ -1312,7 +1310,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1441,14 +1439,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-05T17:00:00.000Z",
@@ -1505,7 +1503,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1634,14 +1632,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-06T17:00:00.000Z",
@@ -1698,7 +1696,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1760,14 +1758,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-07T17:00:00.000Z",
@@ -1824,7 +1822,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -1955,14 +1953,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-08T17:00:00.000Z",
@@ -2019,7 +2017,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2081,14 +2079,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-09T17:00:00.000Z",
@@ -2145,7 +2143,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2207,14 +2205,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-10T17:00:00.000Z",
@@ -2271,7 +2269,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2402,14 +2400,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-11T17:00:00.000Z",
@@ -2466,7 +2464,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2597,14 +2595,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-12T17:00:00.000Z",
@@ -2661,7 +2659,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2859,14 +2857,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-13T17:00:00.000Z",
@@ -2923,7 +2921,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -2985,14 +2983,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-14T17:00:00.000Z",
@@ -3049,7 +3047,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3180,14 +3178,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-15T17:00:00.000Z",
@@ -3244,7 +3242,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3306,14 +3304,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-16T17:00:00.000Z",
@@ -3370,7 +3368,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3432,14 +3430,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-17T17:00:00.000Z",
@@ -3496,7 +3494,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3558,14 +3556,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-18T17:00:00.000Z",
@@ -3622,7 +3620,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3751,14 +3749,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-19T17:00:00.000Z",
@@ -3815,7 +3813,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -3944,14 +3942,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-20T17:00:00.000Z",
@@ -4008,7 +4006,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4070,14 +4068,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-21T17:00:00.000Z",
@@ -4134,7 +4132,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4265,14 +4263,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-22T17:00:00.000Z",
@@ -4329,7 +4327,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4391,14 +4389,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-23T17:00:00.000Z",
@@ -4455,7 +4453,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4517,14 +4515,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-24T17:00:00.000Z",
@@ -4581,7 +4579,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4643,14 +4641,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-25T17:00:00.000Z",
@@ -4707,7 +4705,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4769,14 +4767,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-26T17:00:00.000Z",
@@ -4833,7 +4831,7 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833tYQ==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4A==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeRAAA=",
 		"Categories": [],
 		"Subject": "Daily grind",
@@ -4962,14 +4960,14 @@
 	},
 	{
 		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=')",
-		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA833taA==\"",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gAA9XAH4g==\"",
 		"Id": "AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeSAAA=",
 		"Categories": [],
 		"Subject": "Test recurring daily event - started in the past",
 		"Type": "Instance",
 		"Body": {
 			"ContentType": "HTML",
-			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tborder:none;\r\n\tpadding:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">Description!<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\np.emailquote, li.emailquote, div.emailquote\r\n\t{margin-right:0in;\r\n\tmargin-left:1.0pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\"}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; font-family:Calibri\">This is a test event<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
 		},
 		"Start": {
 			"DateTime": "2017-04-27T17:00:00.000Z",

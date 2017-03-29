@@ -111,6 +111,48 @@ h3,
 h4,
 h5,
 h6,
-strong {
+strong,
+th {
     font-family: "Mallory Bold";
+}
+
+.calendar {
+    width: 100%;
+}
+
+td {
+    border-right: 1px #555 solid;
+    border-bottom: 1px #555 solid;
+}
+
+.datacell {
+    padding: 3px 10px;
+}
+
+.checkboxcell {
+    padding: 3px 10px;
+}
+
+th {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+.tablerow-start {
+    border-top: 2px #555 solid;
+}
+
+.hover-row {
+    background-color: rgba(70, 110, 173, 0.5);
+    transition: 0.5s all ease;
+}
+
+.body-text,
+.WordSection1,
+.MsoNormal,
+.MsoNormal span {
+    font-family: "Mallory Light"!important;
 }

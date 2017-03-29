@@ -7,26 +7,12 @@ var fs = require("fs");
 var moment = require("moment");
 var handlebars = require("handlebars");
 
-// var $;
-// require("jsdom").env("", function(err, window) {
-//     if (err) {
-//         console.error(err);
-//         return;
-//     }
-//     $ = require("jquery")(window);
-// });
-// console.log("Jquery: ");
-// console.log($);
-
 var targetSharedEmail = "peabody.events@yale.edu";
 
 var handle = {};
 handle['/'] = home;
 handle['/authorize'] = authorize;
-handle['/mail'] = mail;
 handle['/calendar'] = calendar;
-handle['/contacts'] = contacts;
-handle['/data'] = viewdata;
 
 server.start(router.route, handle);
 
@@ -60,6 +46,23 @@ function home(response, request) {
 
 
 }
+
+var eventCategories = [
+    { name: "Special openings (Holidays, first Thursdays)", value: "special_openings" },
+    { name: "Gallery Talks", value: "gallery_talks" },
+    { name: "Summer camps", value: "summer_camps" },
+    { name: "School Programs", value: "school_programs" },
+    { name: "Family Events", value: "family_events" },
+    { name: "Talks", value: "talks" },
+    { name: "Workshops", value: "workshops" },
+    { name: "Movies", value: "movies" },
+    { name: "Announcements", value: "announcements" },
+    { name: "Daily Special Events", value: "daily_special_events" },
+    { name: "Programs for Adults", value: "programs_for_adults" },
+    { name: "Illustration Classes", value: "illustration_classes" },
+    { name: "Facilities, Maintenance & Closures", value: "facilities_maintenance_closures" },
+    { name: "General", value: "general" }
+];
 
 var url = require('url');
 
@@ -185,55 +188,6 @@ function getAccessToken(request, response, callback) {
     }
 }
 
-function mail(response, request) {
-    getAccessToken(request, response, function(error, token) {
-        console.log('Token found in cookie: ', token);
-        var email = getValueFromCookie('node-tutorial-email', request.headers.cookie);
-        console.log('Email found in cookie: ', email);
-        if (token) {
-            response.writeHead(200, { 'Content-Type': 'text/html' });
-            response.write('<div><h1>Your inbox</h1></div>');
-
-            var queryParams = {
-                '$select': 'Subject,ReceivedDateTime,From,IsRead',
-                '$orderby': 'ReceivedDateTime desc',
-                '$top': 10
-            };
-
-            // Set the API endpoint to use the v2.0 endpoint
-            outlook.base.setApiEndpoint('https://outlook.office.com/api/v2.0');
-            // Set the anchor mailbox to the user's SMTP address
-            outlook.base.setAnchorMailbox(email);
-
-            outlook.mail.getMessages({ token: token, folderId: 'inbox', odataParams: queryParams },
-                function(error, result) {
-                    if (error) {
-                        console.log('getMessages returned an error: ' + error);
-                        response.write('<p>ERROR: ' + error + '</p>');
-                        response.end();
-                    } else if (result) {
-                        console.log('getMessages returned ' + result.value.length + ' messages.');
-                        response.write('<table><tr><th>From</th><th>Subject</th><th>Received</th></tr>');
-                        result.value.forEach(function(message) {
-                            console.log('  Subject: ' + message.Subject);
-                            var from = message.From ? message.From.EmailAddress.Name : 'NONE';
-                            response.write('<tr><td>' + from +
-                                '</td><td>' + (message.IsRead ? '' : '<b>') + message.Subject + (message.IsRead ? '' : '</b>') +
-                                '</td><td>' + message.ReceivedDateTime.toString() + '</td></tr>');
-                        });
-
-                        response.write('</table>');
-                        response.end();
-                    }
-                });
-        } else {
-            response.writeHead(200, { 'Content-Type': 'text/html' });
-            response.write('<p> No token found in cookie!</p>');
-            response.end();
-        }
-    });
-}
-
 function buildAttendeeString(attendees) {
 
     var attendeeString = 'wut';
@@ -269,19 +223,34 @@ function buildOrganizerString(organizer) {
     return organizerString;
 }
 
+function buildCategoriesSelect(item) {
+    var selectHTML = "<select title='select" + item + "'>";
+    selectHTML += "<option value='' selected>select a category</option>";
+
+    eventCategories.forEach(function(category) {
+        selectHTML += "<option value='" + category.value + "'>" + category.name + "</option>";
+    });
+
+    selectHTML += "</select>";
+
+    return selectHTML;
+}
+
 function buildBodyString(body) {
 
-    var bodyString = 'text';
+    var bodyStringHTML = 'html';
+    var bodyStringText = 'text';
     if (body) {
 
         if (body.hasOwnProperty("Content")) {
-
-            bodyString = body.Content;
+            bodyStringHTML = body.Content.toString();
+            // extract only the inner HTML from the <body> tag of the message content
+            bodyStringText = bodyStringHTML.match(/<body[^>]*>[\s\S]*<\/body>/gi);
         }
 
     }
-
-    return bodyString;
+    console.log(bodyStringText);
+    return bodyStringText;
 }
 
 function buildLocationString(location) {
@@ -424,11 +393,14 @@ function calendar(response, request) {
         response.write('<!DOCTYPE html>');
         response.write('<html>');
         response.write('<head>');
-        response.write('<title>Calendar Feed</title>');
-        response.write('<style>td, th { border-right: 1px #555 solid; border-bottom: 1px #555 solid; padding: 10px;} th { border-width: 3px; font-weight: bold; background-color: #ccc; }</style>');
+        response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
+        response.write('<link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />');
+        response.write('<link href="main.css" type="text/css" rel="stylesheet" />');
+        response.write('<title>Peabody Events Calendar</title>');
+        response.write('<link rel="icon" href="media/Favicon/ypm-favicon1_32.png" sizes="32x32">');
         response.write('</head>');
         response.write('<body>');
-        response.write('<div><h2>Logged in as: ' + email + '</h2><h2>Viewing events for: ' + targetSharedEmail + '</h2></div>');
+
 
         var queryParamsSingle = {
             '$select': 'Subject,Start,End,Categories,Organizer,Body,Location,Type',
@@ -667,106 +639,47 @@ function calendar(response, request) {
                         cal.instances.sortBy(function(o) { return o.Start.DateTime });
                         cal.combined.sortBy(function(o) { return o.Start.DateTime }); // this is the important one
 
+                        // ============================== 6a. Make navbar with authentication info and selection totals
 
-                        // ============================== 6. Write data table using cal.combined ==============================
+                        response.write('<nav class="navbar navbar-default">');
+                        response.write('<h2>Logged in as: ' + email + '</h2>');
+                        // response.write('<h2>Viewing events for: ' + targetSharedEmail + '</h2>');
+                        response.write('<div class="container-fluid">');
+                        response.write('</div>');
+                        response.write('</nav>');
 
 
+                        // ============================== 6b. Write data table using cal.combined ==============================
 
-                        // ======================= COMBINED
-                        response.write('<h4>COMBINED EVENTS!</h4>');
-                        response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                        // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                        response.write('<table class="calendar">');
+                        response.write('<thead><tr><th width="50" class="checkboxcell"><input type="checkbox" class="select-all-events" id="selectAllEvents" checked /></th><th class="datacell"><h4>Date</h4></th><th class="datacell"><h4>Time</h4></th><th class="datacell"><h4>Category</h4></th><th class="datacell"><h4>Location</h4></th></tr></thead>');
+                        response.write('<tbody>');
                         cal.combined.forEach(function(event, iter) {
-                            // console.log('  Subject: ' + event.Subject);
-                            // console.log('  Event dump: ' + JSON.stringify(event));
-                            response.write('<tr>' +
-                                '<td>' + getEventNum(iter) +
-                                '</td><td>' + makeTruncatedId(event.Id) +
-                                '</td><td>' + event.Subject +
-                                '</td><td>' + event.Start.DateTime.toString() +
-                                '</td><td>' + event.End.DateTime.toString() +
-                                '</td><td>' + event.Categories.toString() +
-                                '</td><td>' + buildOrganizerString(event.Organizer) +
-                                '</td><td>' + buildBodyString(event.Body) +
-                                '</td><td>' + buildLocationString(event.Location) +
-                                '</td><td>' + event.Type +
-                                '</td></tr>');
+                            var i = getEventNum(iter);
+
+                            response.write('<tr class="tablerow tablerow-start" rel="tablerow-' + i + '">' +
+                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" id="selectEvent' + i + '" checked /></td>' +
+                                '<td class="datacell"><strong>' + event.Start.Date + '</strong></td>' +
+                                '<td class="datacell"><strong>' + event.Start.Time + ' &ndash; ' + event.End.Time + '</strong></td>' +
+                                '<td class="datacell">' + buildCategoriesSelect(i) + '</td>' +
+                                '<td class="datacell">' + buildLocationString(event.Location) + '</td>' +
+                                '</tr>' +
+                                '<tr class="tablerow tablerow-end" rel="tablerow-' + i + '">' +
+                                '<td colspan="4" class="datacell"><h4>' + event.Subject + '</h4><div class="body-text">' + buildBodyString(event.Body) + '</div></td>' +
+                                '</tr>');
+
+
+
                         });
-                        response.write('</table>');
+                        response.write('</tbody></table>');
 
-                        // response.write("<p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p>");
-
-                        // response.write('<h4>Single Instance Events</h4>');
-                        // response.write('<table class="calendardump calendar-single"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
-
-                        // // ======================= SINGLE INSTANCES
-                        // cal.single.forEach(function(event, iter) {
-                        //     // console.log('  Subject: ' + event.Subject);
-                        //     // console.log('  Event dump: ' + JSON.stringify(event));
-                        //     response.write('<tr>' +
-                        //         '<td>' + getEventNum(iter) +
-                        //         '</td><td>' + makeTruncatedId(event.Id) +
-                        //         '</td><td>' + event.Subject +
-                        //         '</td><td>' + event.Start.DateTime.toString() +
-                        //         '</td><td>' + event.End.DateTime.toString() +
-                        //         '</td><td>' + event.Categories.toString() +
-                        //         '</td><td>' + buildOrganizerString(event.Organizer) +
-                        //         '</td><td>' + buildBodyString(event.Body) +
-                        //         '</td><td>' + buildLocationString(event.Location) +
-                        //         '</td><td>' + event.Type +
-                        //         '</td></tr>');
-                        // });
-                        // response.write('</table>');
-
-                        // // ======================= EXTRACTED INSTANCES
-                        // response.write('<h4>Extracted Single Events from Series</h4>');
-                        // response.write('<table class="calendardump calendar-instance"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
-                        // cal.instances.forEach(function(event, iter) {
-                        //     // console.log('  Subject: ' + event.Subject);
-                        //     // console.log('  Event dump: ' + JSON.stringify(event));
-                        //     response.write('<tr>' +
-                        //         '<td>' + getEventNum(iter) +
-                        //         '</td><td>' + makeTruncatedId(event.Id) +
-                        //         '</td><td>' + event.Subject +
-                        //         '</td><td>' + event.Start.DateTime.toString() +
-                        //         '</td><td>' + event.End.DateTime.toString() +
-                        //         '</td><td>' + event.Categories.toString() +
-                        //         '</td><td>' + buildOrganizerString(event.Organizer) +
-                        //         '</td><td>' + buildBodyString(event.Body) +
-                        //         '</td><td>' + buildLocationString(event.Location) +
-                        //         '</td><td>' + event.Type +
-                        //         '</td></tr>');
-                        // });
-                        // response.write('</table>');
-
-                        // // ======================= SERIES MASTER
-                        // response.write('<h4>SeriesMaster Events</h4>');
-                        // response.write('<table class="calendardump calendar-series"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th><th>Recurrence</th></tr>');
-                        // cal.recurring.forEach(function(event, iter) {
-                        //     // console.log('  Subject: ' + event.Subject);
-                        //     // console.log('  Event dump: ' + JSON.stringify(event));
-                        //     response.write('<tr>' +
-                        //         '<td>' + getEventNum(iter) +
-                        //         '</td><td>' + makeTruncatedId(event.Id) +
-                        //         '</td><td>' + event.Subject +
-                        //         '</td><td>' + event.Start.DateTime.toString() +
-                        //         '</td><td>' + event.End.DateTime.toString() +
-                        //         '</td><td>' + event.Categories.toString() +
-                        //         '</td><td>' + buildOrganizerString(event.Organizer) +
-                        //         '</td><td>' + buildBodyString(event.Body) +
-                        //         '</td><td>' + buildLocationString(event.Location) +
-                        //         '</td><td>' + event.Type +
-                        //         '</td><td>' + buildRecurrenceString(event.Recurrence) +
-                        //         '</td></tr>');
-                        // });
-                        // response.write('</table>');
-
-
-
-
-
+                        response.write('<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>');
+                        response.write('<script type="text/javascript">$(document).ready(function() { $(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); $(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); });</script>');
 
                         response.write('</body></html>');
                         response.end();
+
 
                         // ============================== 7. Write JSON file and log using cal.combined ==============================
 
@@ -827,103 +740,6 @@ function calendar(response, request) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function contacts(response, request) {
-    var token = getValueFromCookie('node-tutorial-token', request.headers.cookie);
-    console.log('Token found in cookie: ', token);
-    var email = getValueFromCookie('node-tutorial-email', request.headers.cookie);
-    console.log('Email found in cookie: ', email);
-    if (token) {
-        response.writeHead(200, { 'Content-Type': 'text/html' });
-        response.write('<div><h1>Your contacts</h1></div>');
-
-        var queryParams = {
-            '$select': 'GivenName,Surname,EmailAddresses',
-            '$orderby': 'GivenName asc',
-            '$top': 10
-        };
-
-        // Set the API endpoint to use the v2.0 endpoint
-        outlook.base.setApiEndpoint('https://outlook.office.com/api/v2.0');
-        // Set the anchor mailbox to the user's SMTP address
-        outlook.base.setAnchorMailbox(email);
-
-        outlook.contacts.getContacts({ token: token, odataParams: queryParams },
-            function(error, result) {
-                if (error) {
-                    console.log('\ngetContacts returned an error: ' + error);
-                    response.write('<p>ERROR: ' + error + '</p>');
-                    response.end();
-                } else if (result) {
-                    console.log('\ngetContacts returned ' + result.value.length + ' contacts.');
-                    response.write('<table><tr><th>First name</th><th>Last name</th><th>Email</th></tr>');
-                    result.value.forEach(function(contact) {
-                        var email = contact.EmailAddresses[0] ? contact.EmailAddresses[0].Address : 'NONE';
-                        response.write('<tr><td>' + contact.GivenName +
-                            '</td><td>' + contact.Surname +
-                            '</td><td>' + email + '</td></tr>');
-                    });
-
-                    response.write('</table>');
-                    response.end();
-                }
-            });
-    } else {
-        response.writeHead(200, { 'Content-Type': 'text/html' });
-        response.write('<p> No token found in cookie!</p>');
-        response.end();
-    }
-}
-
-function viewdata(response, request) {
-    console.log("\nview data folder\n")
-    response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write('<div><h1>Calendar Data</h1></div>')
-
-    fs.realpath("data", function(err, path) {
-        if (err) {
-            console.log(err);
-            response.write("<p>" + err + "</p>");
-            return;
-        }
-        console.log('Path is: ' + path);
-        response.write("<p>Path is: " + path + "</p>");
-
-    });
-    fs.readdir("data", function(err, files) {
-        if (err) return;
-        files.forEach(function(f) {
-            console.log('Files: ' + f);
-            response.write("<p>Files: " + f + "</p>");
-        });
-    });
-
-
-    var logcontent = fs.readFileSync("data/datafiles.log");
-    console.log("Output Content: \n" + logcontent);
-    console.log("\n *EXIT* \n");
-
-    response.write("<p><strong>Log files:</strong><br />" + logcontent + "</p>");
-    response.end();
-}
 
 /*
   MIT License: 

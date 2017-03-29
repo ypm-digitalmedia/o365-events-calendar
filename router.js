@@ -17,6 +17,7 @@ function route(handle, pathname, response, request) {
         // response.write('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />');
         response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
         response.write('<link href="main.css" type="text/css" rel="stylesheet" />');
+        response.write('<link rel="icon" href="media/Favicon/ypm-favicon1_32.png" sizes="32x32">');
         response.write('<title>' + pathnameClean + '</title>');
         response.write('</head>');
         response.write('<body>');
@@ -110,6 +111,58 @@ function route(handle, pathname, response, request) {
             } else {
                 console.log("writing TrueType font " + __dirname + pathname);
                 response.writeHead(200, { 'Content-Type': 'font/truetype' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".json") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing JSON file " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'application/javascript' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".log") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing log file " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'text/plain' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".m4v") > -1 || pathnameClean.indexOf(".mp4") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing MPEG video " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'video/mpeg' });
+                response.write(data);
+                response.end();
+            }
+        });
+
+    } else if (pathnameClean.indexOf(".mov") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing QuickTime video " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'video/quicktime' });
                 response.write(data);
                 response.end();
             }
