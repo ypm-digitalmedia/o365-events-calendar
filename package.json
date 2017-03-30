@@ -12,11 +12,13 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "bootstrap-toggle": "^2.2.2",
     "font-awesome": "^4.7.0",
     "handlebars": "^4.0.6",
     "http-server": "^0.9.0",
     "jquery": "^3.2.1",
     "jsdom": "^9.12.0",
+    "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "moment-timezone": "^0.5.11",
     "node-outlook": "^1.1.6",

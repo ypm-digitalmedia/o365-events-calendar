@@ -38,6 +38,19 @@ function route(handle, pathname, response, request) {
             }
         });
 
+    } else if (pathnameClean.indexOf(".json") > -1) {
+
+        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("writing JSON file " + __dirname + pathname);
+                response.writeHead(200, { 'Content-Type': 'application/javascript' });
+                response.write(data);
+                response.end();
+            }
+        });
+
     } else if (pathnameClean.indexOf(".js") > -1) {
 
         var jstext = fs.readFile(__dirname + pathname, function(err, data) {
@@ -111,19 +124,6 @@ function route(handle, pathname, response, request) {
             } else {
                 console.log("writing TrueType font " + __dirname + pathname);
                 response.writeHead(200, { 'Content-Type': 'font/truetype' });
-                response.write(data);
-                response.end();
-            }
-        });
-
-    } else if (pathnameClean.indexOf(".json") > -1) {
-
-        var csstext = fs.readFile(__dirname + pathname, function(err, data) {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log("writing JSON file " + __dirname + pathname);
-                response.writeHead(200, { 'Content-Type': 'application/javascript' });
                 response.write(data);
                 response.end();
             }

@@ -6,6 +6,9 @@ var outlook = require('node-outlook');
 var fs = require("fs");
 var moment = require("moment");
 var handlebars = require("handlebars");
+var _ = require('lodash');
+
+var data_modified = false;
 
 var targetSharedEmail = "peabody.events@yale.edu";
 
@@ -228,7 +231,7 @@ function buildCategoriesSelect(item) {
     selectHTML += "<option value='' selected>select a category</option>";
 
     eventCategories.forEach(function(category) {
-        selectHTML += "<option value='" + category.value + "'>" + category.name + "</option>";
+        selectHTML += "<option value='" + category.name + "'>" + category.name + "</option>";
     });
 
     selectHTML += "</select>";
@@ -249,7 +252,7 @@ function buildBodyString(body) {
         }
 
     }
-    console.log(bodyStringText);
+    // console.log(bodyStringText);
     return bodyStringText;
 }
 
@@ -311,6 +314,29 @@ function buildDaysOfWeekInterval(arr, firstDay) {
     return dowArr;
 }
 
+function getMostRecentFileName(dir, ext) {
+    var files = fs.readdirSync(dir);
+    // WITHOUT EXTENSION PARAMETER, FUNCTION CAN RETURN THUMBS_DB AND LOG FILE, OR MOST RECENT FILE (USUALLY LOG FILE)
+    // WITH EXTENSION PARAMETER, FUNCTION CAN RETURN 'NULL' (IF LENGTH 0) OR MOST RECENT FILE
+    if (ext) {
+        files = _.reject(files, function(f) { return f.toString().indexOf("." + ext) == -1; });
+        if (files.length == 0) {
+            return null;
+        } else {
+            return _.max(files, function(f) {
+                var fullpath = path.join(dir, f);
+                return fs.statSync(fullpath).ctime;
+            });
+        }
+    } else {
+        return _.max(files, function(f) {
+            var fullpath = path.join(dir, f);
+            return fs.statSync(fullpath).ctime;
+        });
+    }
+
+
+}
 
 function clone(obj) {
     var copy;
@@ -394,6 +420,7 @@ function calendar(response, request) {
         response.write('<html>');
         response.write('<head>');
         response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
+        response.write('<link href="node_modules/bootstrap-toggle/css/bootstrap-toggle.css" type="text/css" rel="stylesheet" />');
         response.write('<link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />');
         response.write('<link href="main.css" type="text/css" rel="stylesheet" />');
         response.write('<title>Peabody Events Calendar</title>');
@@ -443,7 +470,9 @@ function calendar(response, request) {
         // 7. Write JSON file and log using cal.combined
         // ======================================================================================================
 
-
+        // console.log("\n\n\n\nMOST RECENT FILE: \n");
+        // console.log(getMostRecentFileName(__dirname + "/data", "json"));
+        // console.log("\n\n\n\n\n");
 
         // ============================== 1. Query single events, write cal.single ==============================
         outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParamsSingle, user: userInfo }, function(error, result) {
@@ -639,27 +668,42 @@ function calendar(response, request) {
                         cal.instances.sortBy(function(o) { return o.Start.DateTime });
                         cal.combined.sortBy(function(o) { return o.Start.DateTime }); // this is the important one
 
-                        // ============================== 6a. Make navbar with authentication info and selection totals
+                        // ============================== 6a. Find most current JSON file =====================================
+
+                        var newestFile = getMostRecentFileName(__dirname + "/data", "json");
+                        if (newestFile) {
+                            var fileLink = '<a href="data/' + newestFile + '" target="_blank" title="View Data"><i class="fa fa-file-code-o" aria-hidden="true"></i> ' + newestFile + '</a>';
+                        } else {
+                            fileLink = "";
+                        }
+
+                        // ============================== 6b. Make navbar with authentication info and selection totals ===========================
 
                         response.write('<nav class="navbar navbar-default">');
-                        response.write('<h2>Logged in as: ' + email + '</h2>');
-                        // response.write('<h2>Viewing events for: ' + targetSharedEmail + '</h2>');
                         response.write('<div class="container-fluid">');
+                        // response.write('<div class="navbar-header"><a class="navbar-brand" href="javascript:void(0)"><h5>Events calendar: ' + targetSharedEmail + '</h5></a></div>');
+                        response.write('<ul class="nav navbar-nav navbar-left">');
+                        response.write('<li><a href="javascript:void(0)"><button class="btn btn-basic disabled btn-lg" id="saveButton"><i class="fa fa-save" aria-hidden="true"></i> Save</li>');
+                        response.write('<li>' + fileLink + '</li>');
+                        response.write('</ul>');
+                        response.write('<ul class="nav navbar-nav navbar-right">')
+                        response.write('<li><a href="/" title="log out"><i class="fa fa-user" aria-hidden="true"></i> ' + email + '</a></li>');
+                        response.write('</ul>');
                         response.write('</div>');
                         response.write('</nav>');
-
+                        response.write('<h3>Events calendar: ' + targetSharedEmail + '</h3>');
 
                         // ============================== 6b. Write data table using cal.combined ==============================
 
                         // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
                         response.write('<table class="calendar">');
-                        response.write('<thead><tr><th width="50" class="checkboxcell"><input type="checkbox" class="select-all-events" id="selectAllEvents" checked /></th><th class="datacell"><h4>Date</h4></th><th class="datacell"><h4>Time</h4></th><th class="datacell"><h4>Category</h4></th><th class="datacell"><h4>Location</h4></th></tr></thead>');
+                        response.write('<thead><tr><th width="50" class="checkboxcell"><input type="checkbox" class="select-all-events" id="selectAllEvents" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="small" /></th><th class="datacell"><h4>Date</h4></th><th class="datacell"><h4>Time</h4></th><th class="datacell"><h4>Category</h4></th><th class="datacell"><h4>Location</h4></th></tr></thead>');
                         response.write('<tbody>');
                         cal.combined.forEach(function(event, iter) {
                             var i = getEventNum(iter);
 
                             response.write('<tr class="tablerow tablerow-start" rel="tablerow-' + i + '">' +
-                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" id="selectEvent' + i + '" checked /></td>' +
+                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" id="selectEvent' + i + '" checked data-toggle="toggle" data-onstyle="success" data-size="mini" /></td>' +
                                 '<td class="datacell"><strong>' + event.Start.Date + '</strong></td>' +
                                 '<td class="datacell"><strong>' + event.Start.Time + ' &ndash; ' + event.End.Time + '</strong></td>' +
                                 '<td class="datacell">' + buildCategoriesSelect(i) + '</td>' +
@@ -675,6 +719,7 @@ function calendar(response, request) {
                         response.write('</tbody></table>');
 
                         response.write('<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>');
+                        response.write('<script src="node_modules/bootstrap-toggle/js/bootstrap-toggle.js" type="text/javascript"></script>');
                         response.write('<script type="text/javascript">$(document).ready(function() { $(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); $(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); });</script>');
 
                         response.write('</body></html>');

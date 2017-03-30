@@ -6,6 +6,7 @@ html {
     background: url("media/bg.png");
     background-size: cover;
     color: #222;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -155,4 +156,10 @@ table {
 .MsoNormal,
 .MsoNormal span {
     font-family: "Mallory Light"!important;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.5)!important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)!important;
+    border-radius: 0px!important;
 }
