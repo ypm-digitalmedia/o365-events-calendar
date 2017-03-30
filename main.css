@@ -147,8 +147,10 @@ table {
 }
 
 .hover-row {
-    background-color: rgba(70, 110, 173, 0.5);
-    transition: 0.5s all ease;
+    background-color: rgba(70, 110, 173, 0.5)!important;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .body-text,
@@ -160,6 +162,36 @@ table {
 
 nav {
     background-color: rgba(255, 255, 255, 0.5)!important;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)!important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5)!important;
     border-radius: 0px!important;
+}
+
+.row-off {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #555;
+    font-style: italic;
+}
+
+.row-edit {
+    background-color: rgba(60, 180, 60, 0.4);
+    font-style: italic;
+}
+
+.glow {
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
+    -moz-animation: neon 1s ease-in-out infinite alternate;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon {
+    from {
+        box-shadow: 0 0 1px #fff, 0 0 5px #FFDD1B;
+    }
+    to {
+        box-shadow: 0 0 10px #fff, 0 0 50px #FFDD1B;
+    }
+}
+
+select:disabled {
+    background-color: #ddd;
 }

@@ -9,6 +9,7 @@ var handlebars = require("handlebars");
 var _ = require('lodash');
 
 var data_modified = false;
+var current_data_exists = false;
 
 var targetSharedEmail = "peabody.events@yale.edu";
 
@@ -64,6 +65,7 @@ var eventCategories = [
     { name: "Programs for Adults", value: "programs_for_adults" },
     { name: "Illustration Classes", value: "illustration_classes" },
     { name: "Facilities, Maintenance & Closures", value: "facilities_maintenance_closures" },
+    { name: "Tours", value: "tours" },
     { name: "General", value: "general" }
 ];
 
@@ -226,8 +228,10 @@ function buildOrganizerString(organizer) {
     return organizerString;
 }
 
+
+
 function buildCategoriesSelect(item) {
-    var selectHTML = "<select title='select" + item + "'>";
+    var selectHTML = "<select title='select" + item + "' onchange='changeCategory(" + item + ",this.options[this.selectedIndex].value)'>";
     selectHTML += "<option value='' selected>select a category</option>";
 
     eventCategories.forEach(function(category) {
@@ -461,20 +465,39 @@ function calendar(response, request) {
 
         // ======================================================================================================
         // PROCESS:
-        // 1. Query single events, write cal.single
-        // 2. Query recurring events, write cal.recurring
-        // 3. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances 
-        // 4. Process and push cal.single and cal.instances to cal.combined
-        // 5. Sort cal.combined
-        // 6. Write data table using cal.combined
-        // 7. Write JSON file and log using cal.combined
+        // 1. Check if data file (JSON) already exists
+        // 2. Query single events, write cal.single
+        // 3. Query recurring events, write cal.recurring
+        // 4. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances 
+        // 5. Process and push cal.single and cal.instances to cal.combined
+        // 6. Sort cal.combined
+        // 7. Write data table using cal.combined
+        // 8. Write JSON file and log using cal.combined
         // ======================================================================================================
 
         // console.log("\n\n\n\nMOST RECENT FILE: \n");
         // console.log(getMostRecentFileName(__dirname + "/data", "json"));
         // console.log("\n\n\n\n\n");
 
-        // ============================== 1. Query single events, write cal.single ==============================
+        // ============================== 1. Check if today's data file (JSON) exists
+
+        var now = new Date();
+        fs.readFile('data/caldata_' + todaysDate() + '.json', 'utf8', function(err, data) {
+
+            if (err) {
+                // today's file doesn't exist... write it!
+                // response.write('<h1>TIME TO MAKE A NEW FILE!</h1>');
+                current_data_exists = false;
+            } else {
+                // today's file already exists... load it!
+                // response.write('<h1>TODAY&apos;S FILE EXISTS!</h1>');
+                current_data_exists = true;
+            }
+
+        });
+
+
+        // ============================== 2. Query single events, write cal.single ==============================
         outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParamsSingle, user: userInfo }, function(error, result) {
             if (error) {
                 console.log('\ngetEvents returned an error: ' + error);
@@ -492,7 +515,7 @@ function calendar(response, request) {
 
 
 
-                // ============================== 2. Query recurring events, write cal.recurring ==============================
+                // ============================== 3. Query recurring events, write cal.recurring ==============================
                 outlook.calendar.getEvents({ token: token, folderId: 'Inbox', odataParams: queryParamsRecurring, user: userInfo }, function(error, result2) {
                     if (error) {
                         console.log('\ngetEvents returned an error: ' + error);
@@ -509,7 +532,7 @@ function calendar(response, request) {
                         // console.log(cal.recurring);
 
 
-                        // ============================== 3. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances  ==============================
+                        // ============================== 4. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances  ==============================
 
                         cal.recurring.forEach(function(series) {
                             var n = 0;
@@ -600,7 +623,7 @@ function calendar(response, request) {
 
                         });
 
-                        // ============================== 4. Process and push cal.single and cal.instances to cal.combined ==============================
+                        // ============================== 5. Process and push cal.single and cal.instances to cal.combined ==============================
 
                         cal.single.forEach(function(item, iter) {
                             var newItem = item;
@@ -661,14 +684,15 @@ function calendar(response, request) {
                         // console.log(cal.combined);
                         console.log("\nTotal items in COMBINED array: " + cal.combined.length);
 
-                        // ============================== 5. Sort cal ==============================
+                        // ============================== 6. Sort cal ==============================
 
                         cal.single.sortBy(function(o) { return o.Start.DateTime });
                         cal.recurring.sortBy(function(o) { return o.Start.DateTime });
                         cal.instances.sortBy(function(o) { return o.Start.DateTime });
                         cal.combined.sortBy(function(o) { return o.Start.DateTime }); // this is the important one
 
-                        // ============================== 6a. Find most current JSON file =====================================
+
+                        // ============================== 7a. Find most current JSON file =====================================
 
                         var newestFile = getMostRecentFileName(__dirname + "/data", "json");
                         if (newestFile) {
@@ -677,13 +701,14 @@ function calendar(response, request) {
                             fileLink = "";
                         }
 
-                        // ============================== 6b. Make navbar with authentication info and selection totals ===========================
+                        // ============================== 7b. Make navbar with authentication info and selection totals ===========================
 
                         response.write('<nav class="navbar navbar-default">');
                         response.write('<div class="container-fluid">');
+                        response.write('<h3>Events calendar: ' + targetSharedEmail + '</h3>');
                         // response.write('<div class="navbar-header"><a class="navbar-brand" href="javascript:void(0)"><h5>Events calendar: ' + targetSharedEmail + '</h5></a></div>');
                         response.write('<ul class="nav navbar-nav navbar-left">');
-                        response.write('<li><a href="javascript:void(0)"><button class="btn btn-basic disabled btn-lg" id="saveButton"><i class="fa fa-save" aria-hidden="true"></i> Save</li>');
+                        response.write('<li><a href="javascript:makeData(\'saveButton\')"><button class="btn btn-basic disabled btn-lg" id="saveButton"><i class="fa fa-save" aria-hidden="true"></i> Save</li>');
                         response.write('<li>' + fileLink + '</li>');
                         response.write('</ul>');
                         response.write('<ul class="nav navbar-nav navbar-right">')
@@ -691,9 +716,8 @@ function calendar(response, request) {
                         response.write('</ul>');
                         response.write('</div>');
                         response.write('</nav>');
-                        response.write('<h3>Events calendar: ' + targetSharedEmail + '</h3>');
 
-                        // ============================== 6b. Write data table using cal.combined ==============================
+                        // ============================== 7c. Write data table using cal.combined ==============================
 
                         // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
                         response.write('<table class="calendar">');
@@ -703,7 +727,7 @@ function calendar(response, request) {
                             var i = getEventNum(iter);
 
                             response.write('<tr class="tablerow tablerow-start" rel="tablerow-' + i + '">' +
-                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" id="selectEvent' + i + '" checked data-toggle="toggle" data-onstyle="success" data-size="mini" /></td>' +
+                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" rel="' + event.Id + '" id="sel|' + i + '" checked data-toggle="toggle" data-onstyle="success" data-size="mini" /></td>' +
                                 '<td class="datacell"><strong>' + event.Start.Date + '</strong></td>' +
                                 '<td class="datacell"><strong>' + event.Start.Time + ' &ndash; ' + event.End.Time + '</strong></td>' +
                                 '<td class="datacell">' + buildCategoriesSelect(i) + '</td>' +
@@ -720,13 +744,32 @@ function calendar(response, request) {
 
                         response.write('<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>');
                         response.write('<script src="node_modules/bootstrap-toggle/js/bootstrap-toggle.js" type="text/javascript"></script>');
-                        response.write('<script type="text/javascript">$(document).ready(function() { $(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); $(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); });</script>');
+                        response.write('<script type="text/javascript">');
+                        response.write('$(document).ready(function() { '); // begin READY function
+                        response.write('$(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); ');
+                        response.write('$(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); ');
+                        response.write('$(".select-event").change(function() { toggleEvent($(this).attr("id"), $(this).prop("checked"), $(this).attr("rel")); });');
+                        response.write('$(".select-all-events").change(function() { toggleAllEvents($(this).prop("checked")); }); ');
+                        response.write('});'); // end READY function
+                        response.write('function toggleSaveButton() { if (data_modified == true) { $("#saveButton").removeClass("disabled").removeClass("btn-basic").addClass("btn-success").addClass("glow"); } }');
+                        response.write('function toggleEvent(domId, status, eventId) { var parentId = "tablerow-" + domId.split("|")[1]; data_modified = true; toggleSaveButton(); console.log(parentId + " | " + eventId + " | " + status); if( status == true ) { $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); $("tr[rel="+parentId+"]").find("select").prop("disabled",false); } else { $("tr[rel="+parentId+"]").removeClass("row-edit").addClass("row-off"); $("tr[rel="+parentId+"]").find("select").prop("disabled","disabled"); }  }');
+                        response.write('function toggleAllEvents(status) { data_modified = true; toggleSaveButton(); console.log("ALL EVENTS - " + status); if(status==true) { $(".select-event").bootstrapToggle("on"); } else { $(".select-event").bootstrapToggle("off"); } }');
+                        response.write('function changeCategory(theRow, val) { var parentId = "tablerow-"+val; console.log(theRow + " | " + val); $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); }');
+                        response.write('function makeData(button) { if($("#"+button).hasClass("disabled") ){console.log("disabled"); } else { console.log("active!")} }');
+                        response.write('</script>');
 
                         response.write('</body></html>');
                         response.end();
 
 
-                        // ============================== 7. Write JSON file and log using cal.combined ==============================
+
+
+
+
+
+
+
+                        // ============================== 8. Write JSON file and log using cal.combined ==============================
 
                         // CHANGE cal.single TO cal.combined
 
