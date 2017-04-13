@@ -329,13 +329,15 @@ function getMostRecentFileName(dir, ext) {
         } else {
             return _.max(files, function(f) {
                 var fullpath = path.join(dir, f);
-                return fs.statSync(fullpath).ctime;
+                var latest = fs.statSync(fullpath).ctime;
+                return latest;
             });
         }
     } else {
         return _.max(files, function(f) {
             var fullpath = path.join(dir, f);
-            return fs.statSync(fullpath).ctime;
+            var latest = fs.statSync(fullpath).ctime;
+            return latest;
         });
     }
 
@@ -473,6 +475,7 @@ function calendar(response, request) {
         // 6. Sort cal.combined
         // 7. Write data table using cal.combined
         // 8. Write JSON file and log using cal.combined
+
         // ======================================================================================================
 
         // console.log("\n\n\n\nMOST RECENT FILE: \n");
@@ -693,15 +696,28 @@ function calendar(response, request) {
 
 
                         // ============================== 7a. Find most current JSON file =====================================
+                        // ============================== 7b. Record most current JSON file to latestData.log =====================================
 
                         var newestFile = getMostRecentFileName(__dirname + "/data", "json");
                         if (newestFile) {
                             var fileLink = '<a href="data/' + newestFile + '" target="_blank" title="View Data"><i class="fa fa-file-code-o" aria-hidden="true"></i> ' + newestFile + '</a>';
+                            var newestFileLog = 'data/newest.json'
+                            var newestFileObj = { "newestFile": newestFile };
+                            //fs.writeFile(newestFileLog, newestFile, 'utf8', function readFileCallback(err, data) {
+                            fs.writeFile(newestFileLog, JSON.stringify(newestFileObj, null, "\t"), 'utf8', function readFileCallback(err, data) {
+
+                                if (err) {
+                                    console.log(err);
+                                } else {
+                                    console.log('\n\nNewest data version written to ' + newestFileLog + ' \n');
+                                }
+                            });
                         } else {
                             fileLink = "";
                         }
 
-                        // ============================== 7b. Make navbar with authentication info and selection totals ===========================
+
+                        // ============================== 7c. Make navbar with authentication info and selection totals ===========================
 
                         response.write('<nav class="navbar navbar-default">');
                         response.write('<div class="container-fluid">');
@@ -717,7 +733,7 @@ function calendar(response, request) {
                         response.write('</div>');
                         response.write('</nav>');
 
-                        // ============================== 7c. Write data table using cal.combined ==============================
+                        // ============================== 7d. Write data table using cal.combined ==============================
 
                         // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
                         response.write('<table class="calendar">');

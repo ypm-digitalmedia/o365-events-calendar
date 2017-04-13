@@ -112,9 +112,6 @@ $(document).on("ready", function() {
 
 
 
-
-
-
     function addZero(i) {
         if (i < 10) {
             i = "0" + i;
@@ -133,68 +130,80 @@ $(document).on("ready", function() {
 
     // ============ ON LOAD FUNCTIONS ============== //
 
+    var nd = '../data/newest.json';
     var td = '../data/caldata_' + todaysDate() + '.json';
 
-    $.getJSON(td, function(data) {
-        var items = [];
-        // $.each( data, function( key, val ) {
-        //     items.push( "{"+ key + ":" + val + "}" );
-        // });
+    $.getJSON(nd, function(file) {
 
-        // console.log(items);
-        // console.log(data);
-        calendarDataJSON = data;
+        console.log("reading from " + file);
 
-        for (var i = 0; i < 3; i++) {
-            var theEvent = calendarDataJSON[i];
-            var theStartTime = new Date(theEvent.Start.DateTime);
-            var theEndTime = new Date(theEvent.End.DateTime);
+        td = "../data/" + file.newestFile;
+        // alert(nd + "\n" + td)
 
-            var theStart = {
-                day: weekdays[theStartTime.getDay()],
-                date: addZero(theStartTime.getDate()),
-                month: addZero(theStartTime.getMonth()),
-                monthName: months[theStartTime.getMonth()],
-                year: theStartTime.getFullYear(),
-                hour: addZero(theStartTime.getHours()),
-                minute: addZero(theStartTime.getMinutes())
-            };
-
-            var theEnd = {
-                day: weekdays[theEndTime.getDay()],
-                date: addZero(theEndTime.getDate()),
-                month: addZero(theEndTime.getMonth()),
-                monthName: months[theEndTime.getMonth()],
-                year: theEndTime.getFullYear(),
-                hour: addZero(theEndTime.getHours()),
-                minute: addZero(theEndTime.getMinutes())
-            };
-
-            var item = {
-                start: theStart,
-                end: theEnd,
-                subject: theEvent.Subject,
-                organizer: theEvent.Organizer.EmailAddress.Name,
-                location: theEvent.Location.DisplayName
-            };
-
-            items.push(item);
+        $.getJSON(td, function(data) {
+            var items = [];
+            // $.each( data, function( key, val ) {
+            //     items.push( "{"+ key + ":" + val + "}" );
+            // });
 
             // console.log(items);
+            // console.log(data);
+            calendarDataJSON = data;
 
-            var eventHTML = "<div class='eventItem'>";
-            eventHTML += "<h2>" + item.subject + "</h2>";
-            eventHTML += "<h3>" + item.start.day + ", " + item.start.monthName + " " + item.start.date + "<br />";
-            eventHTML += removeZero(item.start.hour) + ":" + item.start.minute + " &ndash; " + removeZero(item.end.hour) + ":" + item.end.minute + "</h3>";
-            eventHTML += "</div>";
-            $("#events").append(eventHTML);
-        }
+            for (var i = 0; i < 3; i++) {
+                var theEvent = calendarDataJSON[i];
+                var theStartTime = new Date(theEvent.Start.DateTime);
+                var theEndTime = new Date(theEvent.End.DateTime);
 
-    });
+                var theStart = {
+                    day: weekdays[theStartTime.getDay()],
+                    date: addZero(theStartTime.getDate()),
+                    month: addZero(theStartTime.getMonth()),
+                    monthName: months[theStartTime.getMonth()],
+                    year: theStartTime.getFullYear(),
+                    hour: addZero(theStartTime.getHours()),
+                    minute: addZero(theStartTime.getMinutes())
+                };
+
+                var theEnd = {
+                    day: weekdays[theEndTime.getDay()],
+                    date: addZero(theEndTime.getDate()),
+                    month: addZero(theEndTime.getMonth()),
+                    monthName: months[theEndTime.getMonth()],
+                    year: theEndTime.getFullYear(),
+                    hour: addZero(theEndTime.getHours()),
+                    minute: addZero(theEndTime.getMinutes())
+                };
+
+                var item = {
+                    start: theStart,
+                    end: theEnd,
+                    subject: theEvent.Subject,
+                    organizer: theEvent.Organizer.EmailAddress.Name,
+                    location: theEvent.Location.DisplayName
+                };
+
+                items.push(item);
+
+                // console.log(items);
+
+                var eventHTML = "<div class='eventItem'>";
+                eventHTML += "<h2>" + item.subject + "</h2>";
+                eventHTML += "<h3>" + item.start.day + ", " + item.start.monthName + " " + item.start.date + "<br />";
+                eventHTML += removeZero(item.start.hour) + ":" + item.start.minute + " &ndash; " + removeZero(item.end.hour) + ":" + item.end.minute + "</h3>";
+                eventHTML += "</div>";
+                $("#events").append(eventHTML);
+            }
+
+        });
+    })
+
+
 
 
     // $("#peabody").fitText(1);
     $(window).trigger("resize");
+
 
     // ============================================= //
 
