@@ -327,6 +327,10 @@ function getMostRecentFileName(dir, ext) {
         if (files.length == 0) {
             return null;
         } else {
+            // REMOVE newest.json FROM LIST OF ACCEPTABLE FILES
+            files = _.reject(files, function(f) { return f == "newest.json" });
+            // console.log("\n\nORIGINAL FILES ARRAY:\n" + files + "\n\n\n");
+
             return _.max(files, function(f) {
                 var fullpath = path.join(dir, f);
                 var latest = fs.statSync(fullpath).ctime;
@@ -334,6 +338,7 @@ function getMostRecentFileName(dir, ext) {
             });
         }
     } else {
+        // console.log(files);
         return _.max(files, function(f) {
             var fullpath = path.join(dir, f);
             var latest = fs.statSync(fullpath).ctime;
