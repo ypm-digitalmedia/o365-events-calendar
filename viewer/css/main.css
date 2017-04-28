@@ -88,6 +88,7 @@ video {
 
 #museum {
     bottom: 0;
+    margin-bottom: -50px;
 }
 
 #footer {

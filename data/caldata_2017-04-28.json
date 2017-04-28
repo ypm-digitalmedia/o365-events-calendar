@@ -1,0 +1,3005 @@
+[
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEJK1vtAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABCT7dPA==\"",
+		"Id": "o11SE11wnaGtDjqAUQR3kyhgIJLimkXd",
+		"Categories": "",
+		"Subject": "Test event - friday april 28th",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html><head><meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<!-- converted from text -->\r\n<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left: #800000 2px solid; } --></style></head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt;\"><div class=\"PlainText\">&nbsp;</div></span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-28T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Friday, April 28",
+			"FullDate": "Friday, April 28, 2017",
+			"Time": "5:00 pm",
+			"Day": "Friday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-28T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Friday, April 28",
+			"FullDate": "Friday, April 28, 2017",
+			"Time": "5:30 pm",
+			"Day": "Friday",
+			"Hour": "5",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeaAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZo+w==\"",
+		"Id": "PJuF5cAKGhMXV37tnIgb7KcUBFrSevLE",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-29T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "12:30 pm",
+			"Day": "Saturday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-29T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CRAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSQ==\"",
+		"Id": "feScMSEOZXYBrRz62owJ3fsxbzy3bBLd",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-29T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-29T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CSAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSg==\"",
+		"Id": "HqmPqgGlYEZxXs9ZtrUZjbvIwhMMy4g0",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-29T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-29T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CTAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSw==\"",
+		"Id": "08DNwmBEbkPZcZcJAUZANim9zdfgksgy",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-29T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-29T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, April 29",
+			"FullDate": "Saturday, April 29, 2017",
+			"Time": "4:30 pm",
+			"Day": "Saturday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CVAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTQ==\"",
+		"Id": "D2TAUufzYOQ3oF5H5n8TQ2j6ou7YfgKn",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"><br>\r\n</div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-30T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "12:30 pm",
+			"Day": "Sunday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-30T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CUAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTA==\"",
+		"Id": "WzhwFhqYIt3xA4deERYWZBTPdrRcTI04",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-30T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-30T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CWAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTg==\"",
+		"Id": "UAi3bJfPspQ2nQvGJcrzbrRh86sorWcP",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-30T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-30T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CXAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTw==\"",
+		"Id": "jdsqe313Seffs84eAjgxbnzeIygdTQ0e",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-04-30T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-04-30T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, April 30",
+			"FullDate": "Sunday, April 30, 2017",
+			"Time": "4:30 pm",
+			"Day": "Sunday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CYAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpUw==\"",
+		"Id": "XXrvJpbxoQILn1AHYSko7wBdG0R5TKK6",
+		"Categories": "Tours",
+		"Subject": "Behind-the-Scenes Collections Tour",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html><head><meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<!-- converted from text -->\r\n<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left: #800000 2px solid; } --></style></head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt;\"><div class=\"PlainText\">&nbsp;</div></span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-02T16:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, May 2",
+			"FullDate": "Tuesday, May 2, 2017",
+			"Time": "4:00 pm",
+			"Day": "Tuesday",
+			"Hour": "4",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-02T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, May 2",
+			"FullDate": "Tuesday, May 2, 2017",
+			"Time": "5:00 pm",
+			"Day": "Tuesday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CcAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpXw==\"",
+		"Id": "p1kZGgNnwUMH6BL3SwUaxrq0p0y6Gj4P",
+		"Categories": "Special Openings",
+		"Subject": "First Thursday",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Free admission after 2 PM, and open until 8 PM<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-04T14:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "2:00 pm",
+			"Day": "Thursday",
+			"Hour": "2",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-04T20:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "8:00 pm",
+			"Day": "Thursday",
+			"Hour": "8",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CbAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpYA==\"",
+		"Id": "blczZhlqiz8bxQGXOceDl2K0KtNwJMTV",
+		"Categories": "Gallery Talks",
+		"Subject": "Gallery Talk",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">With Dan Drew, Museum Assistant, Division of Invertebrate Zoology<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-04T16:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "4:00 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-04T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "5:00 pm",
+			"Day": "Thursday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CPAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpXA==\"",
+		"Id": "RaxAoOGm6gfUR04zuDXoH8f3sZSORMzd",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-04T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "2:30 pm",
+			"Day": "Thursday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-04T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CQAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSA==\"",
+		"Id": "NrRabYqHkjMzioo0vdKEwojz4GEQLtyy",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-04T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-04T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 4",
+			"FullDate": "Thursday, May 4, 2017",
+			"Time": "4:30 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeaAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZo+w==\"",
+		"Id": "dHpDz7IkuvE41p3gVsHkiD2DVbSrPhwS",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-06T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "12:30 pm",
+			"Day": "Saturday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-06T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CRAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSQ==\"",
+		"Id": "jN4tcgTUK1qFSsW56xHJBBRISXeitNoL",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-06T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-06T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CSAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSg==\"",
+		"Id": "COcaod5HF8Hba3n2m6KQk4n6FSl5dtXb",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-06T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-06T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CTAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSw==\"",
+		"Id": "IUSqrElFfIl16DQjqElFMfMrkvJ7IIXN",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-06T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-06T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 6",
+			"FullDate": "Saturday, May 6, 2017",
+			"Time": "4:30 pm",
+			"Day": "Saturday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CVAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTQ==\"",
+		"Id": "SwI8kHf7fWFMI44Oyxr0BBKcZL41TGnw",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"><br>\r\n</div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-07T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "12:30 pm",
+			"Day": "Sunday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-07T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CUAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTA==\"",
+		"Id": "0c4ooRlep38OaA9LujvKTqDwW8z8bAnX",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-07T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-07T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CWAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTg==\"",
+		"Id": "zVw0YiZzXBYvtJmAOAManq8NnxG9s9Dx",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-07T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-07T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CXAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTw==\"",
+		"Id": "QGmhrFV4YnHUePd1Ur03cYdl5O1GkOVu",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-07T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-07T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 7",
+			"FullDate": "Sunday, May 7, 2017",
+			"Time": "4:30 pm",
+			"Day": "Sunday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEJK1vsAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABCT7dOg==\"",
+		"Id": "vuGGTldULpxBpatKupY3xUYAtvcSmoRz",
+		"Categories": "Talks",
+		"Subject": "Lecture: The Evolution of Beauty",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle19\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt; color:black\">How Darwin's Forgotten Theory of Mate Choice Shapes the Animal World —and Us</span><span style=\"font-family:'Times New Roman'\"><br>\r\n</span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">With <b>Richard Prum</b>, Professor of Ecology and Evolutionary Biology,<br>\r\n</span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Professor of Forestry and Environmental Studies, and<br>\r\n</span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Curator-in-Charge of the Peabody’s Division of Vertebrate Zoology<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-08T16:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Monday, May 8",
+			"FullDate": "Monday, May 8, 2017",
+			"Time": "4:00 pm",
+			"Day": "Monday",
+			"Hour": "4",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-08T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Monday, May 8",
+			"FullDate": "Monday, May 8, 2017",
+			"Time": "5:00 pm",
+			"Day": "Monday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CPAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpXA==\"",
+		"Id": "7WlXA1g57m9SXcIbvnkZvP4DPfaz5rOO",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-11T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 11",
+			"FullDate": "Thursday, May 11, 2017",
+			"Time": "2:30 pm",
+			"Day": "Thursday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-11T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 11",
+			"FullDate": "Thursday, May 11, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CQAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSA==\"",
+		"Id": "bl4sQZuCFx8lpzookK4cFQcByTAnqJdg",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-11T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 11",
+			"FullDate": "Thursday, May 11, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-11T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 11",
+			"FullDate": "Thursday, May 11, 2017",
+			"Time": "4:30 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeaAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZo+w==\"",
+		"Id": "JJIpqp1DncJvOTGutlK9hbQ5k5EpyUQA",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-13T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "12:30 pm",
+			"Day": "Saturday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-13T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CRAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSQ==\"",
+		"Id": "BRgrJ9DFhIqWzxTo5WPMEbbbsJMuG1Vt",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-13T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-13T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CSAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSg==\"",
+		"Id": "gmCeBYO6ClG8ok08YDWHEZReU1RhaHxz",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-13T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-13T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CTAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSw==\"",
+		"Id": "XVBALpuw8rybQY6iSzN7nf5wgqsqeq3h",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-13T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-13T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 13",
+			"FullDate": "Saturday, May 13, 2017",
+			"Time": "4:30 pm",
+			"Day": "Saturday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CVAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTQ==\"",
+		"Id": "GUURQdkx4bRyPy7r88AqBRyYGMZqJLIy",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"><br>\r\n</div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-14T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "12:30 pm",
+			"Day": "Sunday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-14T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CUAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTA==\"",
+		"Id": "xwLGAxn8botmqMGwGHNuAFGxYJfGmNbY",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-14T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-14T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CWAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTg==\"",
+		"Id": "BnR1GfnXDYvdrjdyFASgF9vIMJGrOTzp",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-14T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-14T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CXAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTw==\"",
+		"Id": "KCUncMph6oFNZLITkzWEEWMzAeIVDE9u",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-14T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-14T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 14",
+			"FullDate": "Sunday, May 14, 2017",
+			"Time": "4:30 pm",
+			"Day": "Sunday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CZAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpVQ==\"",
+		"Id": "YjCFCPMIHjqZbpBjhzyeS2hu0pyyojBl",
+		"Categories": "Tours",
+		"Subject": "Behind-the-Scenes Collections Tour",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html><head><meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<!-- converted from text -->\r\n<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left: #800000 2px solid; } --></style></head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt;\"><div class=\"PlainText\">&nbsp;</div></span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-16T16:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, May 16",
+			"FullDate": "Tuesday, May 16, 2017",
+			"Time": "4:00 pm",
+			"Day": "Tuesday",
+			"Hour": "4",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-16T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Tuesday, May 16",
+			"FullDate": "Tuesday, May 16, 2017",
+			"Time": "5:00 pm",
+			"Day": "Tuesday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CaAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpYQ==\"",
+		"Id": "YgBPu15NxtBvvGWF8EsRLApHJk3KQRG2",
+		"Categories": "Gallery Talks",
+		"Subject": "Gallery Talk",
+		"Type": "SingleInstance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.EmailStyle18\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-size:10.0pt}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">With Liz Clark, PhD student, Division of Invertebrate Paleontology<br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-18T16:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "4:00 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-18T17:00:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "5:00 pm",
+			"Day": "Thursday",
+			"Hour": "5",
+			"Minute": "00",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "David Friend Hall"
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CPAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpXA==\"",
+		"Id": "deKN5JVsNt213PiNysLpm0YpaLSJY3xT",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-18T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "2:30 pm",
+			"Day": "Thursday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-18T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CQAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSA==\"",
+		"Id": "v7RxyUFzPCW3ivln18B19ykfj0HTRwGx",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-18T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-18T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 18",
+			"FullDate": "Thursday, May 18, 2017",
+			"Time": "4:30 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAADyGSeaAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZo+w==\"",
+		"Id": "k1ptQ8Ck7EEPVbgLY7cfKm6eaAmFhNPY",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-20T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "12:30 pm",
+			"Day": "Saturday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-20T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CRAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSQ==\"",
+		"Id": "BdmZ6OVENtlrAS3pCmcxRnJ12uQDEKsU",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-20T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "1:30 pm",
+			"Day": "Saturday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-20T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CSAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSg==\"",
+		"Id": "pj3aoy28hOYY5rKue52iAb6cATaz1iVb",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-20T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "2:30 pm",
+			"Day": "Saturday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-20T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CTAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSw==\"",
+		"Id": "j5jlfm0ELXOx0lFuXwEgeNAdufAfTfmf",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-20T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "3:30 pm",
+			"Day": "Saturday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-20T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Saturday, May 20",
+			"FullDate": "Saturday, May 20, 2017",
+			"Time": "4:30 pm",
+			"Day": "Saturday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Saturday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-18",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CVAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTQ==\"",
+		"Id": "8TVE2LAECn08PZrpRnmFyx4mJ7AGMKDa",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"><br>\r\n</div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-21T16:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "12:30 pm",
+			"Day": "Sunday",
+			"Hour": "12",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-21T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CUAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTA==\"",
+		"Id": "qqInVQJ9hWe3v4psLRDUKiPmOtDuhFLJ",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-21T17:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "1:30 pm",
+			"Day": "Sunday",
+			"Hour": "1",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-21T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-19",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CWAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTg==\"",
+		"Id": "mZe5A2bXGzwbFc3w09u4RTQwMhd8KN9i",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-21T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "2:30 pm",
+			"Day": "Sunday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-21T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CXAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpTw==\"",
+		"Id": "sd0lkU5lDG7xhfz4jvdt8L0uwvtccdm3",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Adaptations (Past and Present)",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Generator\" content=\"Microsoft Exchange Server\">\r\n<style>\r\n<!--\r\n.EmailQuote\r\n\t{margin-left:1pt;\r\n\tpadding-left:4pt;\r\n\tborder-left:#800000 2px solid}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<font size=\"2\"><span style=\"font-size:10pt\">\r\n<div class=\"PlainText\"></div>\r\n</span></font>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-21T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "3:30 pm",
+			"Day": "Sunday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-21T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Sunday, May 21",
+			"FullDate": "Sunday, May 21, 2017",
+			"Time": "4:30 pm",
+			"Day": "Sunday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Sunday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-12",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CPAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpXA==\"",
+		"Id": "2rIOZO81gXtWTl4UGtMeu71KjvzIPPKU",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-25T18:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 25",
+			"FullDate": "Thursday, May 25, 2017",
+			"Time": "2:30 pm",
+			"Day": "Thursday",
+			"Hour": "2",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-25T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 25",
+			"FullDate": "Thursday, May 25, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	},
+	{
+		"@odata.id": "https://outlook.office.com/api/v2.0/Users('91eba44b-50bf-410c-bdd4-ddec9fe478a6@dd8cbebb-2139-4df8-b411-4e3e87abeb5c')/Events('AAMkAGQ2MzI1M2Y1LTA4ZjYtNGJjNC05YjM3LWI2ZjA4NzU5MzMxYwBGAAAAAACVq6k5PrMSSpvOTax9hrbnBwCPQkm6pD3uQoTiO_QK1RKwAAAAYAicAAAJN1jojNgsQZGQDALuQUrWAAEGc1CQAAA=')",
+		"@odata.etag": "W/\"CTdY6IzYLEGRkAwC7kFK1gABBoZpSA==\"",
+		"Id": "jjMaagL96LsqgRge5lkkqGHeHdL3b8qa",
+		"Categories": "Tours",
+		"Subject": "Museum Tour: Highlights",
+		"Type": "Instance",
+		"Body": {
+			"ContentType": "HTML",
+			"Content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"Title\" content=\"\">\r\n<meta name=\"Keywords\" content=\"\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:Calibri}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{color:#954F72;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:Calibri;\r\n\tcolor:windowtext}\r\nspan.msoIns\r\n\t{text-decoration:underline;\r\n\tcolor:teal}\r\n.MsoChpDefault\r\n\t{font-family:Calibri}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\n-->\r\n</style>\r\n</head>\r\n<body bgcolor=\"white\" lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><br>\r\n</span></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+		},
+		"Start": {
+			"DateTime": "2017-05-25T19:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 25",
+			"FullDate": "Thursday, May 25, 2017",
+			"Time": "3:30 pm",
+			"Day": "Thursday",
+			"Hour": "3",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"End": {
+			"DateTime": "2017-05-25T20:30:00.000Z",
+			"TimeZone": "Eastern Standard Time",
+			"Date": "Thursday, May 25",
+			"FullDate": "Thursday, May 25, 2017",
+			"Time": "4:30 pm",
+			"Day": "Thursday",
+			"Hour": "4",
+			"Minute": "30",
+			"Year": "2017"
+		},
+		"Location": {
+			"DisplayName": "",
+			"Address": {},
+			"Coordinates": {}
+		},
+		"Recurrence": {
+			"Pattern": {
+				"Type": "Weekly",
+				"Interval": 1,
+				"Month": 0,
+				"DayOfMonth": 0,
+				"DaysOfWeek": [
+					"Thursday"
+				],
+				"FirstDayOfWeek": "Sunday",
+				"Index": "First"
+			},
+			"Range": {
+				"Type": "NoEnd",
+				"StartDate": "2017-03-16",
+				"EndDate": "0001-01-01",
+				"RecurrenceTimeZone": "Eastern Standard Time",
+				"NumberOfOccurrences": 0
+			}
+		},
+		"Organizer": {
+			"EmailAddress": {
+				"Name": "Peabody Events Office",
+				"Address": "peabody.events@yale.edu"
+			}
+		},
+		"Status": "active",
+		"LastEditedBy": ""
+	}
+]

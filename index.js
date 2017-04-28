@@ -7,6 +7,7 @@ var fs = require("fs");
 var moment = require("moment");
 var handlebars = require("handlebars");
 var _ = require('lodash');
+var qs = require('querystring');
 
 var data_modified = false;
 var current_data_exists = false;
@@ -17,6 +18,7 @@ var handle = {};
 handle['/'] = home;
 handle['/authorize'] = authorize;
 handle['/calendar'] = calendar;
+handle['/updateCalendar'] = updateCalendar;
 
 server.start(router.route, handle);
 
@@ -26,6 +28,7 @@ function home(response, request) {
     response.write('<!DOCTYPE html>');
     response.write('<html>');
     response.write('<head>');
+    response.write('<meta charset="UTF-8">');
     // response.write('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />');
     response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
     response.write('<link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />');
@@ -52,9 +55,9 @@ function home(response, request) {
 }
 
 var eventCategories = [
-    { name: "Special openings (Holidays, first Thursdays)", value: "special_openings" },
+    { name: "Special Openings", value: "special_openings" },
     { name: "Gallery Talks", value: "gallery_talks" },
-    { name: "Summer camps", value: "summer_camps" },
+    { name: "Summer Camps", value: "summer_camps" },
     { name: "School Programs", value: "school_programs" },
     { name: "Family Events", value: "family_events" },
     { name: "Talks", value: "talks" },
@@ -349,6 +352,17 @@ function getMostRecentFileName(dir, ext) {
 
 }
 
+function randomId(len) {
+    if (!len || isNaN(len)) { len = 8; }
+    len = Math.round(len);
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for (var i = 0; i < len; i++) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    return text;
+}
+
 function clone(obj) {
     var copy;
 
@@ -420,6 +434,44 @@ function makeTruncatedId(theId) {
     return "<span title='" + theId + "'>" + " ... " + theId.slice(-10) + "</span>";
 }
 
+
+
+function updateCalendar(response, request) {
+
+    console.log(request.method + " REQUEST RECEIVED");
+
+    if (request.method === 'POST') {
+        // the body of the POST is JSON payload.
+        var data = '';
+        request.addListener('data', function(chunk) { data += chunk; });
+        request.addListener('end', function() {
+            try {
+                events = JSON.parse(data);
+                response.writeHead(200, { 'content-type': 'text/plain' });
+                response.write(events);
+                response.end('\n');
+            } catch (e) {
+                response.writeHead(500, { 'content-type': 'text/plain' });
+                response.write('ERROR:' + e);
+                response.end('\n');
+            }
+        });
+    }
+
+
+
+
+    // response.writeHead(200, {
+    //     'Content-Type': 'text/plain',
+    //     'Access-Control-Allow-Origin': '*',
+    //     'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE',
+    //     'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+    //     'Access-Control-Allow-Credentials': 'true'
+    // });
+    // response.end('Hello World\n');
+}
+
+
 function calendar(response, request) {
     var token = getValueFromCookie('node-tutorial-token', request.headers.cookie);
     console.log('Token found in cookie: ', token);
@@ -427,9 +479,17 @@ function calendar(response, request) {
     console.log('Email found in cookie: ', email);
     if (token) {
         response.writeHead(200, { 'Content-Type': 'text/html' });
+        // response.writeHead(200, {
+        //     'Content-Type': 'text/html',
+        //     'Access-Control-Allow-Origin': '*',
+        //     'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE',
+        //     'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+        //     'Access-Control-Allow-Credentials': 'true'
+        // });
         response.write('<!DOCTYPE html>');
         response.write('<html>');
         response.write('<head>');
+        response.write('<meta charset="UTF-8">');
         response.write('<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />');
         response.write('<link href="node_modules/bootstrap-toggle/css/bootstrap-toggle.css" type="text/css" rel="stylesheet" />');
         response.write('<link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />');
@@ -478,8 +538,8 @@ function calendar(response, request) {
         // 4. Iterate through cal.recurring, generate singleInstance clones and push to cal.instances 
         // 5. Process and push cal.single and cal.instances to cal.combined
         // 6. Sort cal.combined
-        // 7. Write data table using cal.combined
-        // 8. Write JSON file and log using cal.combined
+        // 7. Write JSON file and log using cal.combined
+        // 8. Write data table using cal.combined
 
         // ======================================================================================================
 
@@ -636,7 +696,16 @@ function calendar(response, request) {
                         cal.single.forEach(function(item, iter) {
                             var newItem = item;
                             newItem.Status = "active";
+                            newItem.Id = randomId(32);
                             newItem.LastEditedBy = "";
+
+                            if (newItem.Categories.constructor === Array && newItem.Categories.length > 0) { newItem.Categories = newItem.Categories[0]; } else { newItem.Categories = ""; }
+                            if (newItem.Subject.toLowerCase().indexOf("tour") > -1) { newItem.Categories = "Tours"; }
+                            if (newItem.Subject.toLowerCase().indexOf("talk") > -1) { newItem.Categories = "Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("lecture") > -1) { newItem.Categories = "Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("gallery talk") > -1) { newItem.Categories = "Gallery Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("camp") > -1) { newItem.Categories = "Summer Camps"; }
+                            if (newItem.Subject.toLowerCase().indexOf("thursday") > -1) { newItem.Categories = "Special Openings"; }
 
                             newItem.Start.Date = moment(item.Start.DateTime).format('dddd, MMMM D');
                             newItem.Start.FullDate = moment(item.Start.DateTime).format('dddd, MMMM D, YYYY');
@@ -666,7 +735,18 @@ function calendar(response, request) {
                         cal.instances.forEach(function(item, iter) {
                             var newItem = item;
                             newItem.Status = "active";
+                            newItem.Id = randomId(32);
                             newItem.LastEditedBy = "";
+
+                            if (newItem.Categories.constructor === Array && newItem.Categories.length > 0) { newItem.Categories = newItem.Categories[0]; } else { newItem.Categories = ""; }
+                            if (newItem.Subject.toLowerCase().indexOf("tour") > -1) { newItem.Categories = "Tours"; }
+                            if (newItem.Subject.toLowerCase().indexOf("talk") > -1) { newItem.Categories = "Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("lecture") > -1) { newItem.Categories = "Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("gallery talk") > -1) { newItem.Categories = "Gallery Talks"; }
+                            if (newItem.Subject.toLowerCase().indexOf("camp") > -1) { newItem.Categories = "Summer Camps"; }
+                            if (newItem.Subject.toLowerCase().indexOf("first thursday") > -1) { newItem.Categories = "Special Openings"; }
+
+
 
                             newItem.Start.Date = moment(item.Start.DateTime).format('dddd, MMMM D');
                             newItem.Start.FullDate = moment(item.Start.DateTime).format('dddd, MMMM D, YYYY');
@@ -700,97 +780,10 @@ function calendar(response, request) {
                         cal.combined.sortBy(function(o) { return o.Start.DateTime }); // this is the important one
 
 
-                        // ============================== 7a. Find most current JSON file =====================================
-                        // ============================== 7b. Record most current JSON file to latestData.log =====================================
-
-                        var newestFile = getMostRecentFileName(__dirname + "/data", "json");
-                        if (newestFile) {
-                            var fileLink = '<a href="data/' + newestFile + '" target="_blank" title="View Data"><i class="fa fa-file-code-o" aria-hidden="true"></i> ' + newestFile + '</a>';
-                            var newestFileLog = 'data/newest.json'
-                            var newestFileObj = { "newestFile": newestFile };
-                            //fs.writeFile(newestFileLog, newestFile, 'utf8', function readFileCallback(err, data) {
-                            fs.writeFile(newestFileLog, JSON.stringify(newestFileObj, null, "\t"), 'utf8', function readFileCallback(err, data) {
-
-                                if (err) {
-                                    console.log(err);
-                                } else {
-                                    console.log('\n\nNewest data version written to ' + newestFileLog + ' \n');
-                                }
-                            });
-                        } else {
-                            fileLink = "";
-                        }
-
-
-                        // ============================== 7c. Make navbar with authentication info and selection totals ===========================
-
-                        response.write('<nav class="navbar navbar-default">');
-                        response.write('<div class="container-fluid">');
-                        response.write('<h3>Events calendar: ' + targetSharedEmail + '</h3>');
-                        // response.write('<div class="navbar-header"><a class="navbar-brand" href="javascript:void(0)"><h5>Events calendar: ' + targetSharedEmail + '</h5></a></div>');
-                        response.write('<ul class="nav navbar-nav navbar-left">');
-                        response.write('<li><a href="javascript:makeData(\'saveButton\')"><button class="btn btn-basic disabled btn-lg" id="saveButton"><i class="fa fa-save" aria-hidden="true"></i> Save</li>');
-                        response.write('<li>' + fileLink + '</li>');
-                        response.write('</ul>');
-                        response.write('<ul class="nav navbar-nav navbar-right">')
-                        response.write('<li><a href="/" title="log out"><i class="fa fa-user" aria-hidden="true"></i> ' + email + '</a></li>');
-                        response.write('</ul>');
-                        response.write('</div>');
-                        response.write('</nav>');
-
-                        // ============================== 7d. Write data table using cal.combined ==============================
-
-                        // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
-                        response.write('<table class="calendar">');
-                        response.write('<thead><tr><th width="50" class="checkboxcell"><input type="checkbox" class="select-all-events" id="selectAllEvents" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="small" /></th><th class="datacell"><h4>Date</h4></th><th class="datacell"><h4>Time</h4></th><th class="datacell"><h4>Category</h4></th><th class="datacell"><h4>Location</h4></th></tr></thead>');
-                        response.write('<tbody>');
-                        cal.combined.forEach(function(event, iter) {
-                            var i = getEventNum(iter);
-
-                            response.write('<tr class="tablerow tablerow-start" rel="tablerow-' + i + '">' +
-                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" rel="' + event.Id + '" id="sel|' + i + '" checked data-toggle="toggle" data-onstyle="success" data-size="mini" /></td>' +
-                                '<td class="datacell"><strong>' + event.Start.Date + '</strong></td>' +
-                                '<td class="datacell"><strong>' + event.Start.Time + ' &ndash; ' + event.End.Time + '</strong></td>' +
-                                '<td class="datacell">' + buildCategoriesSelect(i) + '</td>' +
-                                '<td class="datacell">' + buildLocationString(event.Location) + '</td>' +
-                                '</tr>' +
-                                '<tr class="tablerow tablerow-end" rel="tablerow-' + i + '">' +
-                                '<td colspan="4" class="datacell"><h4>' + event.Subject + '</h4><div class="body-text">' + buildBodyString(event.Body) + '</div></td>' +
-                                '</tr>');
 
 
 
-                        });
-                        response.write('</tbody></table>');
-
-                        response.write('<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>');
-                        response.write('<script src="node_modules/bootstrap-toggle/js/bootstrap-toggle.js" type="text/javascript"></script>');
-                        response.write('<script type="text/javascript">');
-                        response.write('$(document).ready(function() { '); // begin READY function
-                        response.write('$(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); ');
-                        response.write('$(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); ');
-                        response.write('$(".select-event").change(function() { toggleEvent($(this).attr("id"), $(this).prop("checked"), $(this).attr("rel")); });');
-                        response.write('$(".select-all-events").change(function() { toggleAllEvents($(this).prop("checked")); }); ');
-                        response.write('});'); // end READY function
-                        response.write('function toggleSaveButton() { if (data_modified == true) { $("#saveButton").removeClass("disabled").removeClass("btn-basic").addClass("btn-success").addClass("glow"); } }');
-                        response.write('function toggleEvent(domId, status, eventId) { var parentId = "tablerow-" + domId.split("|")[1]; data_modified = true; toggleSaveButton(); console.log(parentId + " | " + eventId + " | " + status); if( status == true ) { $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); $("tr[rel="+parentId+"]").find("select").prop("disabled",false); } else { $("tr[rel="+parentId+"]").removeClass("row-edit").addClass("row-off"); $("tr[rel="+parentId+"]").find("select").prop("disabled","disabled"); }  }');
-                        response.write('function toggleAllEvents(status) { data_modified = true; toggleSaveButton(); console.log("ALL EVENTS - " + status); if(status==true) { $(".select-event").bootstrapToggle("on"); } else { $(".select-event").bootstrapToggle("off"); } }');
-                        response.write('function changeCategory(theRow, val) { var parentId = "tablerow-"+val; console.log(theRow + " | " + val); $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); }');
-                        response.write('function makeData(button) { if($("#"+button).hasClass("disabled") ){console.log("disabled"); } else { console.log("active!")} }');
-                        response.write('</script>');
-
-                        response.write('</body></html>');
-                        response.end();
-
-
-
-
-
-
-
-
-
-                        // ============================== 8. Write JSON file and log using cal.combined ==============================
+                        // ============================== 7. Write JSON file and log using cal.combined ==============================
 
                         // CHANGE cal.single TO cal.combined
 
@@ -824,6 +817,152 @@ function calendar(response, request) {
 
                             }
                         });
+
+
+                        // ============================== 8a. Find most current JSON file =====================================
+                        // ============================== 8b. Record most current JSON file to latestData.log =====================================
+
+                        var newestFile = getMostRecentFileName(__dirname + "/data", "json");
+                        if (newestFile) {
+                            var fileLink = '<a href="data/' + newestFile + '" target="_blank" title="View Data"><i class="fa fa-file-code-o" aria-hidden="true"></i> ' + newestFile + '</a>';
+                            var newestFileLog = 'data/newest.json'
+                            var newestFileObj = { "newestFile": newestFile };
+                            //fs.writeFile(newestFileLog, newestFile, 'utf8', function readFileCallback(err, data) {
+                            fs.writeFile(newestFileLog, JSON.stringify(newestFileObj, null, "\t"), 'utf8', function readFileCallback(err, data) {
+
+                                if (err) {
+                                    console.log(err);
+                                } else {
+                                    console.log('\n\nNewest data version written to ' + newestFileLog + ' \n');
+                                }
+                            });
+                        } else {
+                            fileLink = "";
+                        }
+
+
+                        // ============================== 8c. Make navbar with authentication info and selection totals ===========================
+
+                        response.write('<nav class="navbar navbar-default">');
+                        response.write('<div class="container-fluid">');
+                        response.write('<h3>Events calendar: ' + targetSharedEmail + '</h3>');
+                        // response.write('<div class="navbar-header"><a class="navbar-brand" href="javascript:void(0)"><h5>Events calendar: ' + targetSharedEmail + '</h5></a></div>');
+
+                        response.write('<form method="POST" action="./updateCalendar" name="update">');
+                        response.write('<input id="data" type="hidden" name="data" value="" />');
+                        response.write('<ul class="nav navbar-nav navbar-left">');
+                        response.write('<li><a href="javascript:makeData(\'saveButton\')"><button class="btn btn-basic disabled btn-lg" id="saveButton"><i class="fa fa-save" aria-hidden="true"></i> Save</li>');
+                        response.write('<li>' + fileLink + '</li>');
+                        response.write('</ul>');
+                        response.write('</form>');
+
+                        response.write('<ul class="nav navbar-nav navbar-right">')
+                        response.write('<li><a href="/" title="log out"><i class="fa fa-user" aria-hidden="true"></i> ' + email + '</a></li>');
+                        response.write('</ul>');
+                        response.write('</div>');
+                        response.write('</nav>');
+
+                        // ============================== 8d. Write data table using cal.combined ==============================
+
+                        // response.write('<table class="calendardump calendar-combined"><tr><th>#</th><th>ID</th><th>Subject</th><th>Start</th><th>End</th><th>Categories</th><th>Organizer</th><th>Body</th><th>Location</th><th>Type</th></tr>');
+                        response.write('<table class="calendar">');
+                        response.write('<thead><tr><th width="50" class="checkboxcell"><input type="checkbox" class="select-all-events" id="selectAllEvents" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-size="small" /></th><th class="datacell"><h4>Date</h4></th><th class="datacell"><h4>Time</h4></th><th class="datacell"><h4>Category</h4></th><th class="datacell"><h4>Location</h4></th></tr></thead>');
+                        response.write('<tbody>');
+                        cal.combined.forEach(function(event, iter) {
+                            var i = getEventNum(iter);
+
+                            response.write('<tr class="tablerow tablerow-start" rel="tablerow-' + i + '">' +
+                                '<td rowspan="2" class="checkboxcell"><input type="checkbox" class="select-event" rel="' + event.Id + '" id="sel|' + i + '" checked data-toggle="toggle" data-onstyle="success" data-size="mini" /></td>' +
+                                '<td class="datacell"><strong>' + event.Start.Date + '</strong></td>' +
+                                '<td class="datacell"><strong>' + event.Start.Time + ' &ndash; ' + event.End.Time + '</strong></td>' +
+                                '<td class="datacell">' + buildCategoriesSelect(i) + '</td>' +
+                                '<td class="datacell">' + buildLocationString(event.Location) + '</td>' +
+                                '</tr>' +
+                                '<tr class="tablerow tablerow-end" rel="tablerow-' + i + '">' +
+                                '<td colspan="4" class="datacell"><h4>' + event.Subject + '</h4><div class="body-text">' + buildBodyString(event.Body) + '</div></td>' +
+                                '</tr>');
+
+
+
+                        });
+                        response.write('</tbody></table>');
+
+                        response.write('<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>');
+                        response.write('<script src="node_modules/lodash/lodash.min.js" type="text/javascript"></script>');
+                        response.write('<script src="node_modules/bootstrap-toggle/js/bootstrap-toggle.js" type="text/javascript"></script>');
+                        response.write('<script type="text/javascript">');
+                        //globals
+                        response.write('var cal = {"custom": [], "final": []}; ');
+
+                        //put()
+                        response.write('function put(url, data, callback) { $.ajax( url, { type: "POST", dataType: "json", data: JSON.stringify(data), contentType: "text/json", success: function() { if ( callback ) callback(true); }, error  : function() { if ( callback ) callback(false); } });}');
+
+                        //randomId()
+                        response.write('function randomId(len) { if( !len || isNaN(len) ) { len = 8; } len = Math.round(len); var text = ""; var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"; for( var i=0; i < len; i++ ){ text += possible.charAt(Math.floor(Math.random() * possible.length)); }return text;}');
+
+                        // clone()
+                        response.write('function clone(obj) { var copy; if (null == obj || "object" != typeof obj) return obj; if (obj instanceof Date) { copy = new Date(); copy.setTime(obj.getTime()); return copy; } if (obj instanceof Array) { copy = []; for (var i = 0, len = obj.length; i < len; i++) { copy[i] = clone(obj[i]); } return copy; } if (obj instanceof Object) { copy = {}; for (var attr in obj) { if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]); } return copy; } throw new Error("Unable to copy obj! Its type is not supported."); }');
+
+                        // READY
+                        response.write('$(document).ready(function() { ');
+
+                        // ============================== WRITE VALUE OF CAL.COMBINED TO A REGULAR JAVASCRIPT VARIABLE FOR EDITS ========================================= //
+                        response.write('cal.custom = ' + JSON.stringify(clone(cal.combined)) + '; ');
+                        response.write('console.log(cal);');
+
+                        response.write('$(".tablerow").mouseover(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").addClass("hover-row");}); ');
+                        response.write('$(".tablerow").mouseout(function(){var item=$(this).attr("rel");$("tr[rel="+item+"]").removeClass("hover-row");}); ');
+                        response.write('$(".select-event").change(function() { toggleEvent($(this).attr("id"), $(this).prop("checked"), $(this).attr("rel")); });');
+                        response.write('$(".select-all-events").change(function() { toggleAllEvents($(this).prop("checked")); }); ');
+                        response.write('});'); // end READY function
+
+                        //toggleSaveButton()
+                        response.write('function toggleSaveButton() { if (data_modified == true) { $("#saveButton").removeClass("disabled").removeClass("btn-basic").addClass("btn-success").addClass("glow"); } }');
+
+                        //updateDataItem()
+                        response.write('function updateDataItem(eventId, status){ ');
+                        response.write('var item = _.find(cal.custom,function(e){return e.Id == eventId });  ');
+                        response.write('if( typeof(item != "undefined") ) { ');
+                        // response.write('console.log("updating item " + eventId); ');
+                        response.write('item.Status = status?"active":"disabled";');
+                        // response.write('console.log(_.find(cal.custom,function(e){return e.Id == eventId }).Status);');
+                        response.write('} else { console.log("item not found"); }');
+                        response.write('}');
+
+                        //toggleEvent()
+                        response.write('function toggleEvent(domId, status, eventId) { var parentId = "tablerow-" + domId.split("|")[1]; data_modified = true; toggleSaveButton(); console.log(parentId + " | " + eventId + " | " + status); if( status == true ) { $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); $("tr[rel="+parentId+"]").find("select").prop("disabled",false); } else { $("tr[rel="+parentId+"]").removeClass("row-edit").addClass("row-off"); $("tr[rel="+parentId+"]").find("select").prop("disabled","disabled"); } updateDataItem(eventId, status);  }');
+
+                        //toggleAllEvents()
+                        response.write('function toggleAllEvents(status) { data_modified = true; toggleSaveButton(); console.log("ALL EVENTS - " + status); if(status==true) { $(".select-event").bootstrapToggle("on"); } else { $(".select-event").bootstrapToggle("off"); } }');
+
+                        //chooseCategory()
+                        response.write('function changeCategory(theRow, val) { var parentId = "tablerow-"+val; console.log(theRow + " | " + val); $("tr[rel="+parentId+"]").removeClass("row-off").addClass("row-edit"); }');
+
+                        //callback()
+                        response.write('var callback = function(e) { console.log("callback: " + e) };');
+
+                        response.write('function makeData(button) { if($("#"+button).hasClass("disabled") ){console.log("disabled"); } else { ');
+                        response.write('console.log(" Let\'s write the file!");');
+                        response.write('cal.final = _.reject(clone(cal.custom),function(c){ return c.Status == "disabled" });');
+                        response.write('console.log(cal.final.length + " / " + cal.custom.length);');
+                        response.write('console.log(cal.final);');
+                        // response.write('put(window.location.host +"/updateCalendar",JSON.stringify(cal.final),callback); ');
+
+                        response.write('$("#data").val(JSON.stringify(cal.final)); ');
+                        response.write('$("form[name=\'update\']").submit();');
+
+                        response.write(' } }');
+
+                        response.write('</script>');
+
+                        response.write('</body></html>');
+                        response.end();
+
+
+
+
+
+
 
 
 
@@ -872,3 +1011,25 @@ function calendar(response, request) {
   OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
+
+
+
+
+
+
+
+
+
+
+
+// function put(url, data, callback) {
+//     $.ajax( url, {
+//         type: 'POST',
+//         data: JSON.stringify(data),
+//         contentType: 'text/json',
+//         success: function() { if ( callback ) callback(true); },
+//         error  : function() { if ( callback ) callback(false); }
+//     });
+// }
+
+//url = window.location.host + '/updateCalendar'
