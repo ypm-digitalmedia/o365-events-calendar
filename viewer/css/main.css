@@ -68,6 +68,16 @@ video {
     transition: 1s opacity;
 }
 
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 1920px;
+    z-index: 2;
+    /*background-color: orange;*/
+}
+
 .stopfade {
     opacity: .5;
 }
@@ -224,14 +234,6 @@ a:hover {
     font-size: 0.8em;
 }
 
-.page-upcoming h1 {
-    font-size: 32px;
-    margin: -55px 0 10px 140px;
-    position: relative;
-    font-family: "Mallory Black";
-    color: #0093d7;
-}
-
 .upcoming-sunday {
     margin-left: 260px;
 }
@@ -260,7 +262,44 @@ a:hover {
     margin-left: 335px;
 }
 
-.page-upcoming h2 {
+.page-upcoming h1 {
+    color: #1e86c8;
+    font-family: "Mallory Bold";
+    position: relative;
+    font-size: 42px;
+}
+
+.page-today h1.time {
+    font-family: "Mallory Black";
+    color: white;
+    position: relative;
+    display: inline-block;
+    font-size: 42px;
+    width: 140px;
+    text-align: center;
+    margin-left: -140px;
+    transform: translate3d(0, 10px, 0);
+}
+
+.page-today h1.event {
+    font-family: "Mallory Black";
+    color: #1e86c8;
+    position: relative;
+    display: inline;
+    font-size: 42px;
+}
+
+.page-upcoming h1.date {
+    font-size: 32px;
+    margin: -55px 0 10px 140px;
+    position: relative;
+    font-family: "Mallory Black";
+    display: inline;
+    color: #0093d7;
+}
+
+.page-upcoming h2,
+.page-today h2 {
     font-size: 32px;
     margin: -50px 0 10px 140px;
     position: relative;
@@ -268,7 +307,8 @@ a:hover {
     color: #0093d7;
 }
 
-.page-upcoming h3 {
+.page-upcoming h3,
+.page-today h3 {
     font-size: 26px;
     margin: 0 0 10px 140px;
     position: relative;
@@ -276,7 +316,8 @@ a:hover {
     color: #231f20;
 }
 
-.page-upcoming p {
+.page-upcoming p,
+.page-today p {
     font-size: 25px;
     margin: 0 0 10px 140px;
     position: relative;
@@ -309,12 +350,15 @@ a:hover {
     color: #231f20;
 }
 
-.page-today p {
-    font-size: 25px;
+.page-today p,
+.page-upcoming p {
+    font-size: 32px;
     margin: 0 0 10px 140px;
     position: relative;
     font-family: "Mallory Light";
     color: #231f20;
+    line-height: 38px;
+    max-width: 600px;
 }
 
 .event-item {

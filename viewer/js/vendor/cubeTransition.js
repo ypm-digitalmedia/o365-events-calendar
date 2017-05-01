@@ -6,8 +6,16 @@ var slideTypeImages = {
     "upcoming": "../media/upcoming_events_1080.png"
 }
 
+var length;
+var outClass;
+var inClass;
+var current;
+var next;
+var onGoing;
+
+
 function alertSlideNum(prev, act) {
-    console.log("previous: " + prev + " | " + "active: " + act);
+    // console.log("previous: " + prev + " | " + "active: " + act);
 }
 
 function transitionSlideType() {
@@ -35,10 +43,11 @@ function transitionSlideType() {
 
     slideTypes = [];
 
-    var length = $('#cubeTransition>div').length,
-        current = 1,
+    length = $('#cubeTransition>div').length;
+
+    current = 1,
         next = 1,
-        outClass, inClass, onGoing = false;
+        onGoing = false;
     $('#cubeTransition>div:eq(0)').addClass('visible');
 
     for (i = 0; i < length; i++) {

@@ -11,6 +11,9 @@ var calendarDataJSON = [];
 var pagesNumber;
 var pagesData;
 
+var foobar;
+var testballs;
+
 /* ========================= */
 
 $(document).on("ready", function() {
@@ -18,22 +21,29 @@ $(document).on("ready", function() {
     var vid = document.getElementById("bgvid");
     // var pauseButton = document.querySelector("#content button");
 
-    if (window.matchMedia('(prefers-reduced-motion)').matches) {
-        vid.removeAttribute("autoplay");
-        vid.pause();
-        // pauseButton.innerHTML = "Paused";
-    }
 
-    function vidFade() {
-        vid.classList.add("stopfade");
-    }
 
-    vid.addEventListener('ended', function() {
-        // only functional if "loop" is removed 
-        vid.pause();
-        // to capture IE10
-        vidFade();
-    });
+
+
+    // if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    //     vid.removeAttribute("autoplay");
+    //     vid.pause();
+    //     // pauseButton.innerHTML = "Paused";
+    // }
+
+    // function vidFade() {
+    //     vid.classList.add("stopfade");
+    // }
+
+    // vid.addEventListener('ended', function() {
+    //     // only functional if "loop" is removed 
+    //     vid.pause();
+    //     // to capture IE10
+    //     vidFade();
+    // });
+
+
+
 
 
     // pauseButton.addEventListener("click", function() {
@@ -137,10 +147,16 @@ $(document).on("ready", function() {
         if (hour > 12) {
             hour -= 12;
             suffix = " pm";
+        } else if (hour == 12) {
+            suffix = " pm";
         } else {
             suffix = " am";
         }
         return hour + ":" + minute + suffix;
+    }
+
+    function twelveHourTime(hour) {
+        return parseInt(hour > 12 ? hour - 12 : hour);
     }
 
     // ============ ON LOAD FUNCTIONS ============== //
@@ -173,21 +189,30 @@ $(document).on("ready", function() {
                 var theStart = {
                     day: weekdays[theStartTime.getDay()],
                     date: addZero(theStartTime.getDate()),
-                    month: addZero(theStartTime.getMonth()),
+                    dateNoZero: theStartTime.getDate(),
+                    month: addZero(theStartTime.getMonth() + 1),
+                    monthNoZero: theStartTime.getMonth() + 1,
                     monthName: months[theStartTime.getMonth()],
                     year: theStartTime.getFullYear(),
                     hour: addZero(theStartTime.getHours()),
-                    minute: addZero(theStartTime.getMinutes())
+                    hourTwelve: twelveHourTime(theStartTime.getHours()),
+                    minute: addZero(theStartTime.getMinutes()),
+                    datetime: theStartTime
                 };
+
 
                 var theEnd = {
                     day: weekdays[theEndTime.getDay()],
                     date: addZero(theEndTime.getDate()),
-                    month: addZero(theEndTime.getMonth()),
+                    dateNoZero: theStartTime.getDate(),
+                    month: addZero(theEndTime.getMonth() + 1),
+                    monthNoZero: theStartTime.getMonth() + 1,
                     monthName: months[theEndTime.getMonth()],
                     year: theEndTime.getFullYear(),
                     hour: addZero(theEndTime.getHours()),
-                    minute: addZero(theEndTime.getMinutes())
+                    hourTwelve: twelveHourTime(theStartTime.getHours()),
+                    minute: addZero(theEndTime.getMinutes()),
+                    datetime: theEndTime
                 };
 
                 var item = {
@@ -204,7 +229,10 @@ $(document).on("ready", function() {
                 if (isToday(moment(theStartTime))) {
                     items.today.push(item);
                 } else {
-                    items.upcoming.push(item);
+                    // ignore items from the past
+                    if (daysAway(theStartTime) > 0) {
+                        items.upcoming.push(item);
+                    }
                 }
 
                 var eventHTML = "<div class='eventItem'>";
@@ -216,45 +244,95 @@ $(document).on("ready", function() {
                 // $("#events").append(eventHTML);
             }
 
-            pagesNumber = 0;
-            pagesData = [];
+            pagesNumber = 1;
 
             console.log(items);
 
             // Make today's events
             if (items.today.length > 0) {
 
-                // this is a test because there is only 1 today event.
-                // ideally, iterate through 1-4, and create a new page once it is filled up.  push event into page, and page into CubeTransition
+                //TODAY
+                var itemsOnPage = 1;
+                items.today.forEach(function(t) {
 
-                var pageHTML = "<div class='page page-today page1' id='page1' rel='today'></div>";
-                //push page into container
-                $("#cubeTransition").append(pageHTML);
-
-                for (var t = 0; t < items.today; t++) {
-
+                    if (itemsOnPage > 4) {
+                        pagesNumber++;
+                        itemsOnPage = 1;
+                    }
+                    console.log("\n" + pagesNumber + "|" + itemsOnPage + " | TODAY'S EVENT: " + t.subject)
                     var eventHTML = "<div class='event-item'>";
-                    eventHTML += "<img src='../media/dot.png' class='dot' />";
-                    // insert time here
-                    eventHTML += "<h2>" + items.today[t].subject + "</h2>";
-                    eventHTML += "<h3>" + items.today[t].subject + "</h3>";
-                    eventHTML += "<p>" + buildBodyString(items.today[t].body) + "</p>";
+                    eventHTML += "<img src='../media/dots/dot.png' class='dot' />";
+                    eventHTML += "<h1 class='time'>" + t.start.hourTwelve + ":" + t.start.minute + "</h1>";
+                    eventHTML += "<h2>" + t.subject + "</h2>";
+                    eventHTML += "<h3>" + t.category + "</h3>";
+                    eventHTML += "<p>" + buildBodyString(t.body) + "</p>";
                     eventHTML += "</div>";
-                    console.log(eventHTML);
                     // push event into page
 
-                    $("#page1").append(eventHTML);
 
-                }
-            }
+                    $("#page" + pagesNumber).append(eventHTML);
+                    itemsOnPage++;
+                });
 
-            // Make upcoming events
-            if (items.upcoming.length > 0) {
-                for (var u = 0; u < items.upcoming; u++) {
+                //UPCOMING
+                itemsOnPage = 1;
+                pagesNumber = 4;
+                items.upcoming.forEach(function(u) {
+
+                    if (itemsOnPage > 4) {
+                        pagesNumber++;
+                        itemsOnPage = 1;
+                    }
 
 
+                    var da = daysAway(u.start.datetime);
+                    var d = u.start.day.toLowerCase();
 
-                }
+                    //check if event is tomorrow
+                    if (da == 1) {
+                        var dotImg = "<img src='../media/dots/dot_tomorrow.png' class='dot' />";
+                        var dateHeading = "<h1 class='date'>&nbsp;</h1>";
+                        var tomorrowString = " (TOMORROW)";
+                    } else if (da > 6) {
+                        //event is more than a week away
+                        var dotImg = "<img src='../media/dots/dot_" + d + ".png' class='dot' />";
+                        var dateHeading = "<h1 class='date'>" + u.start.monthNoZero + "/" + u.start.dateNoZero + "</h1>";
+                        var tomorrowString = "";
+                    } else {
+                        //event is this week!
+                        var dotImg = "<img src='../media/dots/dot_" + d + ".png' class='dot />";
+                        var dateHeading = "<h1 class='event'>&nbsp;</h1>"
+                        var tomorrowString = "";
+                    }
+
+
+                    console.log("\n" + pagesNumber + "|" + itemsOnPage + " | UPCOMING event" + tomorrowString + ": " + u.subject + " - " + u.start.day + ", " + u.start.monthNoZero + "/" + u.start.dateNoZero + " @ " + niceAmPm(removeZero(u.start.hour), u.start.minute) + " (" + da + " days away)");
+
+                    var eventHTML = "<div class='event-item'>";
+                    eventHTML += dotImg;
+                    eventHTML += dateHeading;
+                    eventHTML += "<h2>" + u.subject + "</h2>";
+                    eventHTML += "<h3>" + niceAmPm(removeZero(u.start.hour), u.start.minute) + "&mdash;" + niceAmPm(removeZero(u.end.hour), u.end.minute) + "</h3>";
+                    eventHTML += "<p>" + buildBodyString(u.body) + "</p>";
+                    eventHTML += "</div>";
+                    // push event into page
+
+                    if (pagesNumber <= 8) {
+                        $("#page" + pagesNumber).append(eventHTML);
+                    }
+                    itemsOnPage++;
+                });
+
+                // REMOVE EMPTY PAGES
+                $(".page").each(function(iter, page) {
+                    if ($(this).children().length < 1) {
+                        $(this).remove();
+                        $("#bullets li").eq(iter + 1).remove();
+                        length--;
+                    }
+                })
+
+
             }
 
 
@@ -282,6 +360,14 @@ $(document).on("ready", function() {
     $(window).trigger("resize");
 
 
+
+
+
+
+
+
+
+
     // ============================================= //
 
 }); // End ready function
@@ -289,15 +375,17 @@ $(document).on("ready", function() {
 
 function buildBodyString(body) {
 
-    var bodyStringHTML = 'html';
-    var bodyStringText = 'text';
+    var bodyStringHTML = '';
+    var bodyStringText = '';
     if (body) {
 
         if (body.hasOwnProperty("Content")) {
             bodyStringHTML = body.Content.toString();
             // extract only the inner HTML from the <body> tag of the message content
-            bodyStringText = bodyStringHTML.match(/<body[^>]*>[\s\S]*<\/body>/gi);
+        } else {
+            bodyStringHTML = body.toString();
         }
+        bodyStringText = bodyStringHTML.match(/<body[^>]*>[\s\S]*<\/body>/gi);
 
     }
     // console.log(bodyStringText);
@@ -319,3 +407,19 @@ function animationOut(i) {}
 function animationIn(i) {}
 //well, you need modify the cubeTransition.js file
 //delete the two functions if you dont need this kind of animation.
+
+function qs(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+function daysAway(event) {
+    var a = moment(event);
+    var b = moment(new Date());
+    return parseInt(a.diff(b, 'days')) + 1;
+}
